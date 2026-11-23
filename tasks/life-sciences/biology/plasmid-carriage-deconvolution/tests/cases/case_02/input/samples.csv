@@ -1,0 +1,7 @@
+sample,condition,replicate,batch
+sample_a867ba9,before,1,batch_A
+sample_699c26e,before,2,batch_A
+sample_7d83a74,before,3,batch_A
+sample_a2dc4f2,after,1,batch_B
+sample_0bb4745,after,2,batch_B
+sample_c48c27f,after,3,batch_B

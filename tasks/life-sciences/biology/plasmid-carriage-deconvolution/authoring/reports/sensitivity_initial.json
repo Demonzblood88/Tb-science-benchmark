@@ -1,0 +1,74 @@
+[
+  {
+    "seed": 19237,
+    "seconds": 3.5980957660001422,
+    "accepted": true,
+    "metrics": {
+      "copy_mae": 0.0034939587587697963,
+      "copy_max": 0.029444369543188242,
+      "carrier_mae": 0.0025094399716597045,
+      "carrier_max": 0.06452640320340242,
+      "delta_max": 0.020672993973024967
+    },
+    "error": null
+  },
+  {
+    "seed": 44081,
+    "seconds": 3.434063808000019,
+    "accepted": true,
+    "metrics": {
+      "copy_mae": 0.004079713833255115,
+      "copy_max": 0.03411433429286653,
+      "carrier_mae": 0.0025731686935394943,
+      "carrier_max": 0.033234074931044355,
+      "delta_max": 0.023595772274718724
+    },
+    "error": null
+  },
+  {
+    "seed": 105103,
+    "seconds": 3.5259686320000583,
+    "accepted": true,
+    "metrics": {
+      "copy_mae": 0.003752159617443621,
+      "copy_max": 0.040387826266464366,
+      "carrier_mae": 0.0020708004678850526,
+      "carrier_max": 0.029932201284819993,
+      "delta_max": 0.012895149762771544
+    },
+    "error": null
+  },
+  {
+    "seed": 629447,
+    "seconds": 3.8095041829999445,
+    "accepted": false,
+    "metrics": null,
+    "error": "incorrect carrier-cell accounting: {'copy_mae': 0.004721284690340637, 'copy_max': 0.05682512866741177, 'carrier_mae': 0.0036813388172775414, 'carrier_max': 0.16516225891630743}"
+  },
+  {
+    "seed": 883927,
+    "seconds": 4.320563833000051,
+    "accepted": true,
+    "metrics": {
+      "copy_mae": 0.004320618716890338,
+      "copy_max": 0.02899132597380849,
+      "carrier_mae": 0.002978076857234082,
+      "carrier_max": 0.04399354077676343,
+      "delta_max": 0.01375044036656653
+    },
+    "error": null
+  },
+  {
+    "metamorphic": "all motif reverse complements plus reversed row order",
+    "accepted": true,
+    "max_share_difference": 7.10181913277097e-13,
+    "seconds": 3.3449027649999152,
+    "metrics": {
+      "copy_mae": 0.005119422099934307,
+      "copy_max": 0.07496852929711995,
+      "carrier_mae": 0.003629604382579775,
+      "carrier_max": 0.09830921614758215,
+      "delta_max": 0.052739650945226736
+    }
+  }
+]

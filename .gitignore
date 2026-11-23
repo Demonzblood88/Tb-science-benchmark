@@ -1,0 +1,18 @@
+# Local downloaded references, installations, credentials and ephemeral runs.
+authoring/upstream/
+authoring/references/
+authoring/sparse_paths.txt
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.key
+*credentials*.json
+auth.json
+jobs/
+dist/
+**/authoring/work/
+**/authoring/reports/logs/*build*.log
+**/authoring/reports/logs/harbor_*.log
+!**/authoring/reports/logs/harbor_results.json

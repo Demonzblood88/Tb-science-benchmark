@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.gz binary
+*.npz binary
+*.png binary
+*.zip binary
+# Preserve captured tool output verbatim; its incidental spacing is not source code.
+*.log -whitespace

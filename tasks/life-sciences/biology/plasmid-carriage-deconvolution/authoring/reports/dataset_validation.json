@@ -1,0 +1,29 @@
+[
+  {
+    "records": 345828,
+    "missing_site_rows": 71962,
+    "chimeric_rows": 11430,
+    "checksum_files": 10,
+    "seed": 846219,
+    "regeneration_byte_identical": false,
+    "regeneration_scientifically_identical": true
+  },
+  {
+    "records": 348084,
+    "missing_site_rows": 72517,
+    "chimeric_rows": 11910,
+    "checksum_files": 10,
+    "seed": 731509,
+    "regeneration_byte_identical": false,
+    "regeneration_scientifically_identical": true
+  },
+  {
+    "records": 346140,
+    "missing_site_rows": 71750,
+    "chimeric_rows": 11910,
+    "checksum_files": 10,
+    "seed": 928461,
+    "regeneration_byte_identical": false,
+    "regeneration_scientifically_identical": true
+  }
+]
