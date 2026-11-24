@@ -1,0 +1,65 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 535B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/7] FROM docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0
+#4 resolve docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0 0.0s done
+#4 CACHED
+
+#5 [internal] load build context
+#5 transferring context: 163B 0.0s done
+#5 DONE 0.1s
+
+#6 [2/7] COPY requirements.txt /tmp/requirements.txt
+#6 DONE 0.0s
+
+#7 [3/7] RUN pip install --no-cache-dir -r /tmp/requirements.txt
+#7 2.470 Collecting numpy==2.2.6 (from -r /tmp/requirements.txt (line 2))
+#7 3.006   Downloading numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+#7 3.535 Collecting scipy==1.15.3 (from -r /tmp/requirements.txt (line 3))
+#7 3.708   Downloading scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+#7 3.955 Downloading numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.5 MB)
+#7 5.656    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.5/16.5 MB 11.1 MB/s eta 0:00:00
+#7 5.829 Downloading scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.3 MB)
+#7 15.60    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.3/37.3 MB 3.8 MB/s eta 0:00:00
+#7 15.67 Installing collected packages: numpy, scipy
+#7 19.63 Successfully installed numpy-2.2.6 scipy-1.15.3
+#7 19.63 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#7 20.29 
+#7 20.29 [notice] A new release of pip is available: 24.3.1 -> 26.3
+#7 20.29 [notice] To update, run: pip install --upgrade pip
+#7 DONE 20.6s
+
+#8 [4/7] WORKDIR /app
+#8 DONE 0.1s
+
+#9 [5/7] COPY data/ /app/data/
+#9 DONE 0.0s
+
+#10 [6/7] COPY CHEMISTRY.md /app/CHEMISTRY.md
+#10 DONE 0.0s
+
+#11 [7/7] RUN mkdir -p /app/submission /app/results
+#11 DONE 0.2s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 5.3s done
+#12 exporting manifest sha256:9c12696d8aa67a225846655658568597a28f55dd55a80535d6366b5791708a5a 0.0s done
+#12 exporting config sha256:18c21274f67d115d4865a0d08e89c56d79cdb1d99acc5231f5c637b4c2b619f0 0.0s done
+#12 exporting attestation manifest sha256:d4d3df2aea1d7a1458d252ab20c609263d9b31fcc02415de3d50f0b62dafbab5 0.0s done
+#12 exporting manifest list sha256:cf8abc744dd9c8d9529a740ca70cffa0167d23e357025ced78ca509ef299d22c 0.0s done
+#12 naming to docker.io/library/chemistry-clean-environment:1.0.0
+#12 naming to docker.io/library/chemistry-clean-environment:1.0.0 done
+#12 unpacking to docker.io/library/chemistry-clean-environment:1.0.0
+#12 unpacking to docker.io/library/chemistry-clean-environment:1.0.0 1.6s done
+#12 DONE 7.0s

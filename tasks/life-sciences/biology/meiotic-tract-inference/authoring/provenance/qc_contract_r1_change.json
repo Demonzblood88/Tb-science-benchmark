@@ -1,0 +1,11 @@
+{
+  "previous_core": "16258efae07c1ddaa45448d43ce46e0934fa64cd0a5f534d31f94d967fce61cc",
+  "current_core": "abc8ed785f1597222ea66507e0805183196c3e4cc08dc82fcd7764720a4b82bc",
+  "revision_tag": "qc-contract-r1",
+  "changed_runtime_files": [
+    "environment/ASSAY.md"
+  ],
+  "original_archive_sha256": "8638338e2cb436867eaa1dc5c7762bb44fc4e87043561bdf5adefd6f3efad710",
+  "original_archive_preserved": true,
+  "model_or_API_calls": 0
+}

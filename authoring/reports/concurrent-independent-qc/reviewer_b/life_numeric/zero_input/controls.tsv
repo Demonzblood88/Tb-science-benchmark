@@ -1,0 +1,13 @@
+batch	marker_class	parent	b_reads	total_reads
+B0	biased	1	691	700
+B1	noisy	1	553	700
+B0	biased	0	74	700
+B0	noisy	0	125	700
+B1	clean	1	683	700
+B0	clean	0	13	700
+B1	noisy	0	129	700
+B1	clean	0	9	700
+B1	biased	0	93	700
+B1	biased	1	687	700
+B0	clean	1	687	700
+B0	noisy	1	588	700
