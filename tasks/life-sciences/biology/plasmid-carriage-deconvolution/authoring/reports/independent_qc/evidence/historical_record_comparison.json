@@ -1,0 +1,25 @@
+{
+  "consulted_after_independent_core_inspection": true,
+  "independently_reproduced": [
+    "Standard author metadata failure",
+    "reference metrics",
+    "coordinate optimizer acceptance",
+    "all five ablations rejected",
+    "frozen dataset and truth regeneration",
+    "worker security regressions",
+    "fresh oracle 1/no-op 0"
+  ],
+  "not_treated_as_independent_proof": [
+    "author PASS labels",
+    "local heuristic originality percentage",
+    "publication/proposal approval",
+    "historical claim that tolerances were fixed before oracle",
+    "general scientific/research-level adequacy"
+  ],
+  "superseded_or_scope_limited": [
+    "implementation_rubric_audit.json marks hint_discoverability/do_not_modify as PASS; actual upstream permits N/A, used here",
+    "package_audit.json counts a wider historical repository/archive, not this 128-file tracked task",
+    "historical run logs include earlier failures; only fresh jobs and final independent direct probes settle runtime verdicts",
+    "direct_probes/ is an initial audit run whose ordinary-failure check reused worker directories; direct_probes_final/ cleans these and is authoritative"
+  ]
+}

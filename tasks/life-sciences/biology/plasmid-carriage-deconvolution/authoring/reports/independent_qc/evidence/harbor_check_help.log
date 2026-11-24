@@ -1,0 +1,73 @@
+                                                                                
+ Usage: harbor check [OPTIONS] {path}                                           
+                                                                                
+ Check task quality against a rubric.                                           
+                                                                                
+╭─ Arguments ──────────────────────────────────────────────────────────────────╮
+│ *    path      <path>  Path to a task directory or a directory of task       │
+│                        directories                                           │
+│                        [required]                                            │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Options ────────────────────────────────────────────────────────────────────╮
+│ --rubric                -r      <path>                 Rubric file           │
+│                                                        (TOML/YAML/JSON).     │
+│                                                        Uses built-in default │
+│                                                        if not specified.     │
+│ --prompt                -p      <path>                 Prompt file for the   │
+│                                                        evaluator agent. Uses │
+│                                                        built-in default if   │
+│                                                        not specified.        │
+│ --agent                 -a      <str>                  Agent to use          │
+│                                                        [default:             │
+│                                                        claude-code]          │
+│ --model                 -m      <str>                  Model to use          │
+│                                                        [default:             │
+│                                                        claude-sonnet-4-6]    │
+│ --ak,--agent-kwarg              <list[str]>            Agent kwarg key=value │
+│                                                        (repeatable)          │
+│ --ae,--agent-env                <list[str]>            Env var KEY=VALUE for │
+│                                                        the agent             │
+│                                                        (repeatable)          │
+│ --env                   -e      <docker|sbx|podman|da  Environment type to   │
+│                                 ytona|e2b|modal|runlo  run the check in      │
+│                                 op|langsmith|ec2|gke|  (e.g. docker,         │
+│                                 ack|openshift|novita|  daytona).             │
+│                                 apple-container|singu  [default: docker]     │
+│                                 larity|islo|tensorlak                        │
+│                                 e|cwsandbox|use-compu                        │
+│                                 ter|cua-cloud|blaxel|                        │
+│                                 opensandbox|beam|skyp                        │
+│                                 ilot|hf-sandbox|hyper                        │
+│                                 browser|vercel|runta|                        │
+│                                 prime|kata|mosaic|smo                        │
+│                                 l|sail|kernel|snowfla                        │
+│                                 ke|boxd|superserve|ac                        │
+│                                 a-sandbox>                                   │
+│ --ek,--environment-kw…          <list[str]>            Environment kwarg     │
+│                                                        key=value             │
+│                                                        (repeatable)          │
+│ --n-concurrent          -n      <int>                  Max concurrent task   │
+│                                                        checks                │
+│                                                        [default: 4]          │
+│ --n-attempts            -k      <int>                  Attempts per task     │
+│                                                        [default: 1]          │
+│ --include-task-name     -i      <list[str]>            Only check tasks      │
+│                                                        matching glob         │
+│                                                        (repeatable)          │
+│ --exclude-task-name     -x      <list[str]>            Skip tasks matching   │
+│                                                        glob (repeatable)     │
+│ --n-tasks               -l      <int>                  Max tasks to check    │
+│ --job-name                      <str>                  Job name (default:    │
+│                                                        timestamp)            │
+│ --jobs-dir              -o      <path>                 Directory to store    │
+│                                                        job results (default: │
+│                                                        jobs)                 │
+│ --config                -c      <path>                 Base JobConfig        │
+│                                                        (YAML/JSON) for       │
+│                                                        advanced settings     │
+│ --quiet                 -q      <bool>                 Suppress trial        │
+│                                                        progress              │
+│ --help                  -h      <bool>                 Show this message and │
+│                                                        exit.                 │
+╰──────────────────────────────────────────────────────────────────────────────╯
+

@@ -1,0 +1,15 @@
+{
+  "branch": "biology/plasmid-carriage-deconvolution",
+  "staged_files_at_review": 437,
+  "staged_dataset_files_checksum_verified": 34,
+  "exactly_one_task": true,
+  "runtime_reference_secret_paths_staged": false,
+  "diff_whitespace_errors": false,
+  "configured_remotes": [
+    "origin"
+  ],
+  "push_performed": false,
+  "core_sha256": "c05526112fcd77c6ed668bc2626061ec2bdaed9afc41030eb6565e5f48cdb7ff",
+  "staged_core_file_count": 54,
+  "review_method": "Complete staged path inventory and diff whitespace check; all source authored/reviewed in-session; all frozen data objects verified directly from Git index; package credential-pattern scan recorded separately."
+}

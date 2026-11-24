@@ -1,0 +1,6 @@
+{
+  "worker_uid": 65534,
+  "all_truth_and_reward_access_denied": true,
+  "daemon_reward_unchanged": true,
+  "symlink_disclosure_rejected": true
+}

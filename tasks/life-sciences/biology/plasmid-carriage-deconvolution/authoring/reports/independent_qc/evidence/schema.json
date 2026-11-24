@@ -1,0 +1,6 @@
+{
+  "harbor_version": "0.27.0",
+  "parsed": true,
+  "unknown_fields": [],
+  "config_model_source": "/home/ahmad/.local/share/uv/tools/harbor/lib/python3.14/site-packages/harbor/models/task/config.py"
+}

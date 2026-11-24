@@ -21,6 +21,8 @@ def md(name,text):
 def load(name):return json.loads((REPORTS/name).read_text())
 
 def main():
+    if tomllib.loads((ROOT/"task.toml").read_text())["task"]["version"] != "1.0.0":
+        raise SystemExit("Historical 1.0.0 report generator; current evidence is in reports/qc_remediation.")
     REPORTS.mkdir(parents=True,exist_ok=True)
     runs=[]
     for path in sorted((ROOT/'authoring/work/jobs').glob('*/*/result.json')):

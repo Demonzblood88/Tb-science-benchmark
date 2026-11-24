@@ -1,0 +1,2 @@
+Error: 'harbor task check' has been removed. Use 'harbor check <task-dir>' 
+instead.

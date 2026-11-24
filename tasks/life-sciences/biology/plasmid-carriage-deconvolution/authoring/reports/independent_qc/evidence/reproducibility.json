@@ -1,0 +1,12 @@
+{
+  "fractions.csv": {
+    "harbor_sha256": "ba80f93d64ffd109ecdcafa32c312791e47504ff046ca019d3bd1178121a4975",
+    "direct_sha256": "ba80f93d64ffd109ecdcafa32c312791e47504ff046ca019d3bd1178121a4975",
+    "identical": true
+  },
+  "changes.csv": {
+    "harbor_sha256": "f30b069f0c9780265d8dc0abbf92ee9abb70f7121726c3991a1c5e12a24f411e",
+    "direct_sha256": "f30b069f0c9780265d8dc0abbf92ee9abb70f7121726c3991a1c5e12a24f411e",
+    "identical": true
+  }
+}

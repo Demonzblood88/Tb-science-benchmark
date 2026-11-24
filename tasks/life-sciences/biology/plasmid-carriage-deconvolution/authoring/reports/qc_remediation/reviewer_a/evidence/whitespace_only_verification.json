@@ -1,0 +1,18 @@
+{
+  "before_core_sha256": "e3dc8c2ae24ce3763db836621e5010a51101ec67dbaceebb7f34ae7b1986154e",
+  "after_core_sha256": "c05526112fcd77c6ed668bc2626061ec2bdaed9afc41030eb6565e5f48cdb7ff",
+  "core_file_count": 54,
+  "all_other_53_files_identical": true,
+  "only_changed_file": "environment/ASSAY.md",
+  "only_change": "Remove one ASCII space immediately before line60 newline",
+  "new_assay_sha256": "e81eb3f5bb1324ddf3e83c91d6d31aee5e73c051282e1c40d29841f37e39c0cf",
+  "reconstructed_old_assay_sha256": "5aae19a30031a5b510a5bfdd32a8ec8f95aaeb7925779b66d071904c905633eb",
+  "old_assay_sha256": "5aae19a30031a5b510a5bfdd32a8ec8f95aaeb7925779b66d071904c905633eb",
+  "reconstruction_matches_old_hash": true,
+  "instruction_sha256": "f8695d847c7f40dc8f8978d118964d66fd5ba27bedaf53f8abab62d8c6b2aa71",
+  "reviewer_votes_unchanged": {
+    "Pass": 64,
+    "Exempt": 3
+  },
+  "runtime_probes_need_repetition": false
+}

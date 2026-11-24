@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "seed": 731509,
   "fractions": [
     [
@@ -2352,16 +2352,7 @@
     }
   ],
   "groups": {
-    "replicon_2068214": [
-      [
-        "host_11eb6ab"
-      ],
-      [
-        "host_13fd6d3"
-      ],
-      [
-        "host_098012c"
-      ],
+    "replicon_bed19c2": [
       [
         "host_dbeb4eb"
       ],
@@ -2369,64 +2360,13 @@
         "host_2ddec1c"
       ],
       [
-        "host_e479cf0"
-      ]
-    ],
-    "replicon_79118e2": [
+        "host_13fd6d3"
+      ],
       [
         "host_11eb6ab"
       ],
       [
-        "host_13fd6d3"
-      ],
-      [
         "host_098012c"
-      ],
-      [
-        "host_dbeb4eb"
-      ],
-      [
-        "host_2ddec1c"
-      ],
-      [
-        "host_e479cf0"
-      ]
-    ],
-    "replicon_21ee0be": [
-      [
-        "host_11eb6ab"
-      ],
-      [
-        "host_13fd6d3"
-      ],
-      [
-        "host_098012c"
-      ],
-      [
-        "host_dbeb4eb"
-      ],
-      [
-        "host_2ddec1c"
-      ],
-      [
-        "host_e479cf0"
-      ]
-    ],
-    "replicon_50bf980": [
-      [
-        "host_11eb6ab"
-      ],
-      [
-        "host_13fd6d3"
-      ],
-      [
-        "host_098012c"
-      ],
-      [
-        "host_dbeb4eb"
-      ],
-      [
-        "host_2ddec1c"
       ],
       [
         "host_e479cf0"
@@ -2437,23 +2377,69 @@
         "host_11eb6ab"
       ],
       [
-        "host_13fd6d3"
-      ],
-      [
         "host_098012c"
       ],
       [
         "host_dbeb4eb"
       ],
       [
+        "host_13fd6d3"
+      ],
+      [
         "host_2ddec1c"
       ],
       [
         "host_e479cf0"
+      ]
+    ],
+    "replicon_79118e2": [
+      [
+        "host_13fd6d3"
+      ],
+      [
+        "host_dbeb4eb"
+      ],
+      [
+        "host_098012c"
+      ],
+      [
+        "host_e479cf0"
+      ],
+      [
+        "host_2ddec1c"
+      ],
+      [
+        "host_11eb6ab"
+      ]
+    ],
+    "replicon_50bf980": [
+      [
+        "host_2ddec1c"
+      ],
+      [
+        "host_11eb6ab"
+      ],
+      [
+        "host_098012c"
+      ],
+      [
+        "host_e479cf0"
+      ],
+      [
+        "host_dbeb4eb"
+      ],
+      [
+        "host_13fd6d3"
       ]
     ],
     "replicon_9ebeb25": [
       [
+        "host_2ddec1c"
+      ],
+      [
+        "host_dbeb4eb"
+      ],
+      [
         "host_11eb6ab"
       ],
       [
@@ -2463,37 +2449,48 @@
         "host_098012c"
       ],
       [
-        "host_dbeb4eb"
+        "host_e479cf0"
+      ]
+    ],
+    "replicon_21ee0be": [
+      [
+        "host_11eb6ab"
       ],
       [
         "host_2ddec1c"
       ],
       [
+        "host_13fd6d3"
+      ],
+      [
+        "host_dbeb4eb"
+      ],
+      [
         "host_e479cf0"
+      ],
+      [
+        "host_098012c"
       ]
     ],
     "replicon_26c0cf5": [
       [
-        "host_11eb6ab"
-      ],
-      [
         "host_13fd6d3"
       ],
       [
-        "host_098012c"
-      ],
-      [
-        "host_dbeb4eb"
+        "host_11eb6ab"
       ],
       [
         "host_2ddec1c",
         "host_e479cf0"
+      ],
+      [
+        "host_098012c"
+      ],
+      [
+        "host_dbeb4eb"
       ]
     ],
-    "replicon_bed19c2": [
-      [
-        "host_11eb6ab"
-      ],
+    "replicon_2068214": [
       [
         "host_13fd6d3"
       ],
@@ -2502,6 +2499,9 @@
       ],
       [
         "host_dbeb4eb"
+      ],
+      [
+        "host_11eb6ab"
       ],
       [
         "host_2ddec1c"

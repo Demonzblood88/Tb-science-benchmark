@@ -16,3 +16,16 @@ dist/
 **/authoring/reports/logs/*build*.log
 **/authoring/reports/logs/harbor_*.log
 !**/authoring/reports/logs/harbor_results.json
+# Retain these audit scratch files locally; publish compact evidence instead.
+**/authoring/reports/independent_qc/evidence/stage/
+**/authoring/reports/independent_qc/evidence/regenerated/
+**/authoring/reports/independent_qc/evidence/jobs/
+**/authoring/reports/independent_qc/evidence/**/scientific/
+**/authoring/reports/qc_remediation/**/stage/
+**/authoring/reports/qc_remediation/**/scientific/
+**/authoring/reports/qc_remediation/**/target/
+**/authoring/reports/qc_remediation/**/jobs/
+**/authoring/reports/qc_remediation/**/size_boundary.csv
+**/authoring/reports/qc_remediation/**/reward.txt
+.pytest_cache/
+**/.pytest_cache/

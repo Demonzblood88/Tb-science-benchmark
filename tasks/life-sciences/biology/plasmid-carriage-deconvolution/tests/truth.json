@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "seed": 846219,
   "fractions": [
     [
@@ -2352,126 +2352,6 @@
     }
   ],
   "groups": {
-    "replicon_756d5ca": [
-      [
-        "host_e34d495"
-      ],
-      [
-        "host_c4271ca"
-      ],
-      [
-        "host_1ae9775"
-      ],
-      [
-        "host_fc6abef"
-      ],
-      [
-        "host_368a914"
-      ],
-      [
-        "host_f39cbb7"
-      ]
-    ],
-    "replicon_cbd0123": [
-      [
-        "host_e34d495"
-      ],
-      [
-        "host_c4271ca"
-      ],
-      [
-        "host_1ae9775"
-      ],
-      [
-        "host_fc6abef"
-      ],
-      [
-        "host_368a914"
-      ],
-      [
-        "host_f39cbb7"
-      ]
-    ],
-    "replicon_110cb11": [
-      [
-        "host_e34d495"
-      ],
-      [
-        "host_c4271ca"
-      ],
-      [
-        "host_1ae9775"
-      ],
-      [
-        "host_fc6abef"
-      ],
-      [
-        "host_368a914"
-      ],
-      [
-        "host_f39cbb7"
-      ]
-    ],
-    "replicon_d395b85": [
-      [
-        "host_e34d495"
-      ],
-      [
-        "host_c4271ca"
-      ],
-      [
-        "host_1ae9775"
-      ],
-      [
-        "host_fc6abef"
-      ],
-      [
-        "host_368a914"
-      ],
-      [
-        "host_f39cbb7"
-      ]
-    ],
-    "replicon_842959e": [
-      [
-        "host_e34d495"
-      ],
-      [
-        "host_c4271ca"
-      ],
-      [
-        "host_1ae9775"
-      ],
-      [
-        "host_fc6abef"
-      ],
-      [
-        "host_368a914"
-      ],
-      [
-        "host_f39cbb7"
-      ]
-    ],
-    "replicon_a377376": [
-      [
-        "host_e34d495"
-      ],
-      [
-        "host_c4271ca"
-      ],
-      [
-        "host_1ae9775"
-      ],
-      [
-        "host_fc6abef"
-      ],
-      [
-        "host_368a914"
-      ],
-      [
-        "host_f39cbb7"
-      ]
-    ],
     "replicon_86f4d4b": [
       [
         "host_e34d495"
@@ -2483,16 +2363,136 @@
         "host_1ae9775"
       ],
       [
+        "host_f39cbb7",
+        "host_368a914"
+      ],
+      [
+        "host_fc6abef"
+      ]
+    ],
+    "replicon_110cb11": [
+      [
+        "host_368a914"
+      ],
+      [
         "host_fc6abef"
       ],
       [
-        "host_368a914",
+        "host_e34d495"
+      ],
+      [
         "host_f39cbb7"
+      ],
+      [
+        "host_c4271ca"
+      ],
+      [
+        "host_1ae9775"
+      ]
+    ],
+    "replicon_d395b85": [
+      [
+        "host_368a914"
+      ],
+      [
+        "host_f39cbb7"
+      ],
+      [
+        "host_fc6abef"
+      ],
+      [
+        "host_1ae9775"
+      ],
+      [
+        "host_e34d495"
+      ],
+      [
+        "host_c4271ca"
+      ]
+    ],
+    "replicon_cbd0123": [
+      [
+        "host_fc6abef"
+      ],
+      [
+        "host_f39cbb7"
+      ],
+      [
+        "host_1ae9775"
+      ],
+      [
+        "host_e34d495"
+      ],
+      [
+        "host_c4271ca"
+      ],
+      [
+        "host_368a914"
       ]
     ],
     "replicon_f04fa03": [
       [
+        "host_f39cbb7"
+      ],
+      [
+        "host_368a914"
+      ],
+      [
+        "host_1ae9775"
+      ],
+      [
+        "host_c4271ca"
+      ],
+      [
         "host_e34d495"
+      ],
+      [
+        "host_fc6abef"
+      ]
+    ],
+    "replicon_842959e": [
+      [
+        "host_e34d495"
+      ],
+      [
+        "host_f39cbb7"
+      ],
+      [
+        "host_1ae9775"
+      ],
+      [
+        "host_c4271ca"
+      ],
+      [
+        "host_fc6abef"
+      ],
+      [
+        "host_368a914"
+      ]
+    ],
+    "replicon_756d5ca": [
+      [
+        "host_368a914"
+      ],
+      [
+        "host_1ae9775"
+      ],
+      [
+        "host_c4271ca"
+      ],
+      [
+        "host_e34d495"
+      ],
+      [
+        "host_fc6abef"
+      ],
+      [
+        "host_f39cbb7"
+      ]
+    ],
+    "replicon_a377376": [
+      [
+        "host_fc6abef"
       ],
       [
         "host_c4271ca"
@@ -2501,13 +2501,13 @@
         "host_1ae9775"
       ],
       [
-        "host_fc6abef"
+        "host_f39cbb7"
       ],
       [
         "host_368a914"
       ],
       [
-        "host_f39cbb7"
+        "host_e34d495"
       ]
     ]
   },

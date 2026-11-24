@@ -5,3 +5,6 @@
 *.zip binary
 # Preserve captured tool output verbatim; its incidental spacing is not source code.
 *.log -whitespace
+# Audit evidence is hashed verbatim; preserve captured bytes across platforms.
+tasks/life-sciences/biology/plasmid-carriage-deconvolution/authoring/reports/independent_qc/** -text -whitespace
+tasks/life-sciences/biology/plasmid-carriage-deconvolution/authoring/reports/qc_remediation/** -text -whitespace
