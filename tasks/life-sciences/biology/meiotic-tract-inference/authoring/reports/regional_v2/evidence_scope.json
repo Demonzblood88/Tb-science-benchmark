@@ -1,0 +1,12 @@
+{
+  "tested_core_sha256": "4a78846e5cce3886c50f5fedf8372f6a913c5f8d962b1fe57e6f1e2f75d2a7fd",
+  "deliverable_core_sha256": "d4c143030c8715c7cb33924fbb4846a61df72884224ec117cf1b57b9a40f0b6a",
+  "only_changed_files": [
+    {
+      "path": "environment/ASSAY.md",
+      "before": "c8fa3021194aafe8a528aaa91a597912038b4c4ed4257be87f27984b8c165ecc",
+      "after": "26506e69be86e89b03fc6f0f74de6ddb22fb483b98522046a12f88b81bdfbb2b"
+    }
+  ],
+  "kind": "documentation_only_worker_resource_clarification"
+}

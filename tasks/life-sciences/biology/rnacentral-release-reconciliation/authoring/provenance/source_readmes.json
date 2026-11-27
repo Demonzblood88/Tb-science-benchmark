@@ -1,0 +1,122 @@
+[
+  {
+    "path": "authoring/provenance/source_readmes/27.0-genome_coordinates-readme.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/27.0/genome_coordinates/readme.txt",
+    "sha256": "a02bdc90d37c891ff4600ed2103b4bc42a73c5c3bf34c6bacbaa8abaeedd3d59",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/27.0-id_mapping-example.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/27.0/id_mapping/example.txt",
+    "sha256": "e59c384ef38c6a84b37fb20114c83f41ed30e0883c33cbc3a1a1fe7cdc3363c7",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/27.0-id_mapping-readme.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/27.0/id_mapping/readme.txt",
+    "sha256": "c2a39e36fb2578988acba20c9d9ab5bf5a415b211d12402297ed3436d95a1bdd",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/27.0-md5-example.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/27.0/md5/example.txt",
+    "sha256": "bf4134ba0247dd4b6c5f717d37b34627d6a9cdf2aee1415b9ee48efc546abafe",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/27.0-md5-readme.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/27.0/md5/readme.txt",
+    "sha256": "eb077c2ddeb92eb55112720f60b550f58f8ef991d68234917b66f07d85cfd3c5",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/27.0-release_notes.txt.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/27.0/release_notes.txt",
+    "sha256": "ea6934cc70f1242167739ce65f4a586704eea6874f80f1851a19e5c00d681f61",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/27.0-rfam-example.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/27.0/rfam/example.txt",
+    "sha256": "95ee33642009fbc43915512eecebe669ce5a530d00008b0ca4733e776869fe7d",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/27.0-rfam-readme.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/27.0/rfam/readme.txt",
+    "sha256": "19227ef14266fd461d31bd847ea960aeef58141000d92faae0d0a2ab1b173c8d",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/27.0-sequences-example.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/27.0/sequences/example.txt",
+    "sha256": "6bfc9f039695f673c7ab089c1c2204ab46ff9c6b68afee710800a1917e7f7764",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/27.0-sequences-readme.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/27.0/sequences/readme.txt",
+    "sha256": "e219e750dcf30141fc7409cc276730267c2f05e1edeb4368cfb2fbf339d2840d",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/28.0-genome_coordinates-readme.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/28.0/genome_coordinates/readme.txt",
+    "sha256": "a02bdc90d37c891ff4600ed2103b4bc42a73c5c3bf34c6bacbaa8abaeedd3d59",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/28.0-id_mapping-example.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/28.0/id_mapping/example.txt",
+    "sha256": "e59c384ef38c6a84b37fb20114c83f41ed30e0883c33cbc3a1a1fe7cdc3363c7",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/28.0-id_mapping-readme.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/28.0/id_mapping/readme.txt",
+    "sha256": "c2a39e36fb2578988acba20c9d9ab5bf5a415b211d12402297ed3436d95a1bdd",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/28.0-md5-example.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/28.0/md5/example.txt",
+    "sha256": "bf4134ba0247dd4b6c5f717d37b34627d6a9cdf2aee1415b9ee48efc546abafe",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/28.0-md5-readme.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/28.0/md5/readme.txt",
+    "sha256": "eb077c2ddeb92eb55112720f60b550f58f8ef991d68234917b66f07d85cfd3c5",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/28.0-release_notes.txt.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/28.0/release_notes.txt",
+    "sha256": "05ede0efce05cd9cd76af8992db132a13b6d4ea182e2a34fd2be302c65f31f4d",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/28.0-rfam-example.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/28.0/rfam/example.txt",
+    "sha256": "95ee33642009fbc43915512eecebe669ce5a530d00008b0ca4733e776869fe7d",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/28.0-rfam-readme.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/28.0/rfam/readme.txt",
+    "sha256": "19227ef14266fd461d31bd847ea960aeef58141000d92faae0d0a2ab1b173c8d",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/28.0-sequences-example.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/28.0/sequences/example.txt",
+    "sha256": "7afbc493700cf4ff35a843a1dcc44cc5456ee686008c1742a9004d5cc8fa60af",
+    "source_bytes_preserved": true
+  },
+  {
+    "path": "authoring/provenance/source_readmes/28.0-sequences-readme.txt.value",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/28.0/sequences/readme.txt",
+    "sha256": "e219e750dcf30141fc7409cc276730267c2f05e1edeb4368cfb2fbf339d2840d",
+    "source_bytes_preserved": true
+  }
+]

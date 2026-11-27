@@ -1,0 +1,65 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 564B 0.1s done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 32B 0.0s
+#3 transferring context: 72B 0.1s done
+#3 DONE 0.1s
+
+#4 [1/6] FROM docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0
+#4 resolve docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0 0.3s done
+#4 CACHED
+
+#5 [internal] load build context
+#5 transferring context: 844.09kB 0.3s done
+#5 DONE 0.4s
+
+#6 [2/7] COPY requirements.txt /tmp/requirements.txt
+#6 CACHED
+
+#7 [3/7] RUN pip install --no-cache-dir -r /tmp/requirements.txt
+#7 CACHED
+
+#8 [4/7] WORKDIR /app
+#8 CACHED
+
+#9 [5/7] COPY data/ /app/data/
+#9 CACHED
+
+#10 [6/7] COPY DATA_CONTRACT.md /app/DATA_CONTRACT.md
+#10 DONE 0.1s
+
+#11 [7/7] RUN cd /app/data && sha256sum -c data_checksums.sha256 && mkdir -p /app/submission /app/output
+#11 0.379 27.0/active.fasta.gz: OK
+#11 0.382 27.0/id_mapping.tsv.gz: OK
+#11 0.382 27.0/inactive.fasta.gz: OK
+#11 0.382 27.0/md5.tsv.gz: OK
+#11 0.384 27.0/rfam.tsv.gz: OK
+#11 0.384 27.0/species.fasta.gz: OK
+#11 0.384 28.0/active.fasta.gz: OK
+#11 0.385 28.0/id_mapping.tsv.gz: OK
+#11 0.385 28.0/inactive.fasta.gz: OK
+#11 0.385 28.0/md5.tsv.gz: OK
+#11 0.385 28.0/rfam.tsv.gz: OK
+#11 0.388 28.0/species.fasta.gz: OK
+#11 0.388 capsule.json: OK
+#11 0.388 release_transfer.json: OK
+#11 DONE 0.4s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 0.3s done
+#12 exporting manifest sha256:41672048902491de32df508ab684f2cc5c61243f86da6a51d6f064f79d171d37 0.0s done
+#12 exporting config sha256:7c84f229f619d0b0266636b46df8fb79bda7147dab7018d21edadfb0be427e16 0.0s done
+#12 exporting attestation manifest sha256:3b2fe2948b67b723d6979a91b8d1ef54e7c85fa4a645f6e7d04f93ca237d19c9
+#12 exporting attestation manifest sha256:3b2fe2948b67b723d6979a91b8d1ef54e7c85fa4a645f6e7d04f93ca237d19c9 0.0s done
+#12 exporting manifest list sha256:0918162e30b1934948e793348012eaebb256e20cfe86a4577efcd6f17c6cf650 0.0s done
+#12 naming to docker.io/library/v5-release-controls-agent:latest done
+#12 unpacking to docker.io/library/v5-release-controls-agent:latest 0.1s done
+#12 DONE 0.7s

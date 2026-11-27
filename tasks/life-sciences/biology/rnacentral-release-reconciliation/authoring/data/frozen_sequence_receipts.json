@@ -1,0 +1,1206 @@
+{
+  "URS00000006A3": {
+    "hits": {
+      "27.0": [
+        [
+          "URS00000006A3",
+          "RF00003",
+          "131",
+          "8.6e-36",
+          "0",
+          "165",
+          "0",
+          "166",
+          "U1 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS00000006A3",
+          "RF00003",
+          "131",
+          "8.6e-36",
+          "0",
+          "165",
+          "0",
+          "166",
+          "U1 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "6bcd6a67394a074f5d06082e16024ea3",
+      "28.0": "6bcd6a67394a074f5d06082e16024ea3"
+    },
+    "sequence": "ATACTTACCTGGCGTAGAGGTTAACCGTGATCACCAAGGCGTGTTCCTCCGGAGTGAGGCTTGGCCATTGCACTGCGGCTGAGTTGACCTCTGCGATTATTCCTAATGTGAATAACTCGTGCGTGTAATTTTTGGTAGCCGGGAATGGCGTTCGCGCCGTCCCGA",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS00000006A3?format=json",
+      "retrieved_utc": "2026-11-25T21:24:12.363349+00:00",
+      "response_sha256": "338ec92e23d659aea32dd05cdea68963a1e16924e16a3f32081bc7792e55213f",
+      "urn": "URS00000006A3",
+      "sequence": "AUACUUACCUGGCGUAGAGGUUAACCGUGAUCACCAAGGCGUGUUCCUCCGGAGUGAGGCUUGGCCAUUGCACUGCGGCUGAGUUGACCUCUGCGAUUAUUCCUAAUGUGAAUAACUCGUGCGUGUAAUUUUUGGUAGCCGGGAAUGGCGUUCGCGCCGUCCCGA",
+      "md5": "6bcd6a67394a074f5d06082e16024ea3"
+    }
+  },
+  "URS0000000CF6": {
+    "hits": {
+      "27.0": [
+        [
+          "URS0000000CF6",
+          "RF00020",
+          "89.3",
+          "3.2e-17",
+          "0",
+          "112",
+          "0",
+          "117",
+          "U5 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS0000000CF6",
+          "RF00020",
+          "89.3",
+          "3.2e-17",
+          "0",
+          "112",
+          "0",
+          "117",
+          "U5 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "7bd2f382228fe0fcf8c27897b033508b",
+      "28.0": "7bd2f382228fe0fcf8c27897b033508b"
+    },
+    "sequence": "AGCTGCGCGGTGAGCACAAAGCGAACTATTCTTTCGCCTTTTACTAAAGAATACCGTGTGCGCGCCGCAATTAGCAGCATACGCTAATTTTTGGAGGGAAACCGACTCTTCTG",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS0000000CF6?format=json",
+      "retrieved_utc": "2026-11-25T21:24:16.092204+00:00",
+      "response_sha256": "2c0144c364a5086bb193724feecd92aacbc751c63476f67a8099c14702d2f2d4",
+      "urn": "URS0000000CF6",
+      "sequence": "AGCUGCGCGGUGAGCACAAAGCGAACUAUUCUUUCGCCUUUUACUAAAGAAUACCGUGUGCGCGCCGCAAUUAGCAGCAUACGCUAAUUUUUGGAGGGAAACCGACUCUUCUG",
+      "md5": "7bd2f382228fe0fcf8c27897b033508b"
+    }
+  },
+  "URS00000019BC": {
+    "hits": {
+      "27.0": [
+        [
+          "URS00000019BC",
+          "RF00026",
+          "74.5",
+          "4e-20",
+          "0",
+          "101",
+          "0",
+          "100",
+          "U6 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS00000019BC",
+          "RF00026",
+          "74.5",
+          "4e-20",
+          "0",
+          "101",
+          "0",
+          "100",
+          "U6 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "20269130a11f395d5c8573b1da6842fd",
+      "28.0": "20269130a11f395d5c8573b1da6842fd"
+    },
+    "sequence": "GTGTTCACATAGGCAGCACACATAGAACACTGGAATGATACAGTGAAGATGAGCATGGCCCCTGCACAAGGATGACACACAAATCCATGAAGCATTCCATA",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS00000019BC?format=json",
+      "retrieved_utc": "2026-11-25T21:24:19.837158+00:00",
+      "response_sha256": "00e5a5350b087a2ee00a1038d2499436616f8ad60f43656dd923822b6cbea15d",
+      "urn": "URS00000019BC",
+      "sequence": "GUGUUCACAUAGGCAGCACACAUAGAACACUGGAAUGAUACAGUGAAGAUGAGCAUGGCCCCUGCACAAGGAUGACACACAAAUCCAUGAAGCAUUCCAUA",
+      "md5": "20269130a11f395d5c8573b1da6842fd"
+    }
+  },
+  "URS00000019F3": {
+    "hits": {
+      "27.0": [
+        [
+          "URS00000019F3",
+          "RF00097",
+          "44.3",
+          "8.8e-09",
+          "0",
+          "107",
+          "0",
+          "107",
+          "Plant small nucleolar RNA R71"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS00000019F3",
+          "RF00097",
+          "44.3",
+          "8.8e-09",
+          "0",
+          "107",
+          "0",
+          "107",
+          "Plant small nucleolar RNA R71"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "6c001392dfb5c8dccd121e223204cbb6",
+      "28.0": "6c001392dfb5c8dccd121e223204cbb6"
+    },
+    "sequence": "ATCCTATGATGAGGACAGGCGGCCACATACTTATGAAGTCATTCCCATGCTTCAGAAATGGACTTGTCCCTCGTCTGCTGGAAACTGGAAATCCTTCCACGAAGTGC",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS00000019F3?format=json",
+      "retrieved_utc": "2026-11-25T21:24:24.599464+00:00",
+      "response_sha256": "5d137fa7af86ac2bfeea57abe30b7b4ad2d4308d026b716c7d5237c90da753d6",
+      "urn": "URS00000019F3",
+      "sequence": "AUCCUAUGAUGAGGACAGGCGGCCACAUACUUAUGAAGUCAUUCCCAUGCUUCAGAAAUGGACUUGUCCCUCGUCUGCUGGAAACUGGAAAUCCUUCCACGAAGUGC",
+      "md5": "6c001392dfb5c8dccd121e223204cbb6"
+    }
+  },
+  "URS00000028E2": {
+    "hits": {
+      "27.0": [
+        [
+          "URS00000028E2",
+          "RF00097",
+          "45.5",
+          "4.2e-09",
+          "0",
+          "106",
+          "0",
+          "107",
+          "Plant small nucleolar RNA R71"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS00000028E2",
+          "RF00097",
+          "45.5",
+          "4.2e-09",
+          "0",
+          "106",
+          "0",
+          "107",
+          "Plant small nucleolar RNA R71"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "03749ef0b3d2c0738d68a83a1077084a",
+      "28.0": "03749ef0b3d2c0738d68a83a1077084a"
+    },
+    "sequence": "CGCCCATGATGAGGATGGGTGGTGACGTACTCCTGCAGCATTTCCCCAGCTTCAAGAATGGTTTCATCCCTCATCTGCTGAAAGCTAGATATTCTTCCACGAGGAG",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS00000028E2?format=json",
+      "retrieved_utc": "2026-11-25T21:24:28.391968+00:00",
+      "response_sha256": "627e4fc018ec7abbbf9059a86e467371875dc651ac59649a8d1b6f2529d0f1ec",
+      "urn": "URS00000028E2",
+      "sequence": "CGCCCAUGAUGAGGAUGGGUGGUGACGUACUCCUGCAGCAUUUCCCCAGCUUCAAGAAUGGUUUCAUCCCUCAUCUGCUGAAAGCUAGAUAUUCUUCCACGAGGAG",
+      "md5": "03749ef0b3d2c0738d68a83a1077084a"
+    }
+  },
+  "URS0000002CA0": {
+    "hits": {
+      "27.0": [
+        [
+          "URS0000002CA0",
+          "RF00026",
+          "96.3",
+          "9.9e-27",
+          "0",
+          "107",
+          "0",
+          "105",
+          "U6 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS0000002CA0",
+          "RF00026",
+          "96.3",
+          "9.9e-27",
+          "0",
+          "107",
+          "0",
+          "105",
+          "U6 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "6c2eb7251bc7f183822ecc40b852f70e",
+      "28.0": "6c2eb7251bc7f183822ecc40b852f70e"
+    },
+    "sequence": "GTACTCACTTCGGCAGCACATATACTAAAATTGGAATGATACAGAGAAGATTAGCATGGCCCCTTCACAAAGAGGACACACAAATTCATGAACAGTTCCATGTTTTT",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS0000002CA0?format=json",
+      "retrieved_utc": "2026-11-25T21:24:33.384434+00:00",
+      "response_sha256": "48e2c90d559f87f06a2569800eaa2a9cb4d863fa47f80d9e4680f49fc3874add",
+      "urn": "URS0000002CA0",
+      "sequence": "GUACUCACUUCGGCAGCACAUAUACUAAAAUUGGAAUGAUACAGAGAAGAUUAGCAUGGCCCCUUCACAAAGAGGACACACAAAUUCAUGAACAGUUCCAUGUUUUU",
+      "md5": "6c2eb7251bc7f183822ecc40b852f70e"
+    }
+  },
+  "URS00000047BE": {
+    "hits": {
+      "27.0": [
+        [
+          "URS00000047BE",
+          "RF00004",
+          "113.4",
+          "4.5e-25",
+          "0",
+          "152",
+          "20",
+          "171",
+          "U2 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS00000047BE",
+          "RF00004",
+          "113.4",
+          "4.5e-25",
+          "0",
+          "152",
+          "20",
+          "171",
+          "U2 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "209aad0d3621c57b32198edc4c3b19e2",
+      "28.0": "209aad0d3621c57b32198edc4c3b19e2"
+    },
+    "sequence": "CTAAGATCAAAGTGTGGTATCTGTTCTTTTCAGCTTAATATCTGAAAGTTCCCGCATTGCGGGACCAGTATATTAAACTGATTTTTGTAAAATGACGAGATGTTAGGGGCTCGCTCCACTCTCGTCACGGGTCGGCCCGGCATTGCAGTGCC",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS00000047BE?format=json",
+      "retrieved_utc": "2026-11-25T21:24:40.665316+00:00",
+      "response_sha256": "5fddb8a6bb0a48b42eb1629e9ef9d817920931df8522c6995e61bc452e194e37",
+      "urn": "URS00000047BE",
+      "sequence": "CUAAGAUCAAAGUGUGGUAUCUGUUCUUUUCAGCUUAAUAUCUGAAAGUUCCCGCAUUGCGGGACCAGUAUAUUAAACUGAUUUUUGUAAAAUGACGAGAUGUUAGGGGCUCGCUCCACUCUCGUCACGGGUCGGCCCGGCAUUGCAGUGCC",
+      "md5": "209aad0d3621c57b32198edc4c3b19e2"
+    }
+  },
+  "URS0000006C46": {
+    "hits": {
+      "27.0": [
+        [
+          "URS0000006C46",
+          "RF00026",
+          "92.9",
+          "1.1e-25",
+          "0",
+          "107",
+          "0",
+          "105",
+          "U6 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS0000006C46",
+          "RF00026",
+          "92.9",
+          "1.1e-25",
+          "0",
+          "107",
+          "0",
+          "105",
+          "U6 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "04262bf0fc99dc5e5cdf6d12cb92ff07",
+      "28.0": "04262bf0fc99dc5e5cdf6d12cb92ff07"
+    },
+    "sequence": "GTGCTCTCTTCAGCAACACATATGCTAAAAGTAGAACAATACAGAGAAGATTAGCATGATCCCTGCTCAGGGATGACATGCAAATTCATGAGGCATTCCATATTTTT",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS0000006C46?format=json",
+      "retrieved_utc": "2026-11-25T21:24:43.975192+00:00",
+      "response_sha256": "c33693cfb05482db6c95c7fe15eaf82b25ccdd4427f16d59a698ae8fff2190ad",
+      "urn": "URS0000006C46",
+      "sequence": "GUGCUCUCUUCAGCAACACAUAUGCUAAAAGUAGAACAAUACAGAGAAGAUUAGCAUGAUCCCUGCUCAGGGAUGACAUGCAAAUUCAUGAGGCAUUCCAUAUUUUU",
+      "md5": "04262bf0fc99dc5e5cdf6d12cb92ff07"
+    }
+  },
+  "URS00000075F3": {
+    "hits": {
+      "27.0": [
+        [
+          "URS00000075F3",
+          "RF00003",
+          "131.5",
+          "6.2e-36",
+          "0",
+          "164",
+          "0",
+          "166",
+          "U1 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS00000075F3",
+          "RF00003",
+          "131.5",
+          "6.2e-36",
+          "0",
+          "164",
+          "0",
+          "166",
+          "U1 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "7ce365d5c18277519dcd089d713e5832",
+      "28.0": "7ce365d5c18277519dcd089d713e5832"
+    },
+    "sequence": "AAACTAACCTGGCTGGGAGGCATCTCGCGATCATGAAGGCGGGACCTCCATGGCGAGGTTTGGCCATTGCACTTTCGGCCAGGCTGACCCGTGTGGCAGTCCCGAGTTGGGATTGGCCAACAGCATAATTTTTGCGTTTGGGGACAGCGTTCGCGCTTCCCCGCCC",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS00000075F3?format=json",
+      "retrieved_utc": "2026-11-25T21:24:47.484769+00:00",
+      "response_sha256": "23cdae0e60bd8aa596a11020880bd8b52822dc97b345e8133d2ec89774760049",
+      "urn": "URS00000075F3",
+      "sequence": "AAACUAACCUGGCUGGGAGGCAUCUCGCGAUCAUGAAGGCGGGACCUCCAUGGCGAGGUUUGGCCAUUGCACUUUCGGCCAGGCUGACCCGUGUGGCAGUCCCGAGUUGGGAUUGGCCAACAGCAUAAUUUUUGCGUUUGGGGACAGCGUUCGCGCUUCCCCGCCC",
+      "md5": "7ce365d5c18277519dcd089d713e5832"
+    }
+  },
+  "URS0000007F6B": {
+    "hits": {
+      "27.0": [
+        [
+          "URS0000007F6B",
+          "RF00026",
+          "62.4",
+          "2e-16",
+          "0",
+          "102",
+          "0",
+          "105",
+          "U6 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS0000007F6B",
+          "RF00026",
+          "62.4",
+          "2e-16",
+          "0",
+          "102",
+          "0",
+          "105",
+          "U6 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "0455e98814c4d52778a80a0929f90b6e",
+      "28.0": "0455e98814c4d52778a80a0929f90b6e"
+    },
+    "sequence": "GTGCTTGCGTTAGCAGCACATATACTGAAGTTGCAACAGTACAGTGGAAATTTGCATGGCCCTTGCATCAGGATGACATAGATTTATAAAGTCCATATTTTT",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS0000007F6B?format=json",
+      "retrieved_utc": "2026-11-25T21:24:51.474966+00:00",
+      "response_sha256": "b7f9056fb8ca9a975ba67d7f7bbe01cde36b168e60ff33a7b67beac7247502cc",
+      "urn": "URS0000007F6B",
+      "sequence": "GUGCUUGCGUUAGCAGCACAUAUACUGAAGUUGCAACAGUACAGUGGAAAUUUGCAUGGCCCUUGCAUCAGGAUGACAUAGAUUUAUAAAGUCCAUAUUUUU",
+      "md5": "0455e98814c4d52778a80a0929f90b6e"
+    }
+  },
+  "URS00000081EA": {
+    "hits": {
+      "27.0": [
+        [
+          "URS00000081EA",
+          "RF00003",
+          "172.1",
+          "1.2e-47",
+          "0",
+          "164",
+          "0",
+          "166",
+          "U1 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS00000081EA",
+          "RF00003",
+          "172.1",
+          "1.2e-47",
+          "0",
+          "164",
+          "0",
+          "166",
+          "U1 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "212b4843c8fb9cc0dd85d798b7d57eae",
+      "28.0": "212b4843c8fb9cc0dd85d798b7d57eae"
+    },
+    "sequence": "ATACTTACCTGGCAGGGGAGATACCATGATCACGAAGGTGGTTTTCCCAGGGCGAGGCTTATCCATTGCACTCCGGATGTGCTGACCCCTGCGATTTCCCCAAATGTGGGAAACTCGACTGCATAATTTGTGGTAGTGGGGGACTGCGTCCGCGCTTTCCCCTG",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS00000081EA?format=json",
+      "retrieved_utc": "2026-11-25T21:24:59.547824+00:00",
+      "response_sha256": "c5f5f3774e76878042579f2320d27fd68384ef7227eadef8e3f74d120244c5fe",
+      "urn": "URS00000081EA",
+      "sequence": "AUACUUACCUGGCAGGGGAGAUACCAUGAUCACGAAGGUGGUUUUCCCAGGGCGAGGCUUAUCCAUUGCACUCCGGAUGUGCUGACCCCUGCGAUUUCCCCAAAUGUGGGAAACUCGACUGCAUAAUUUGUGGUAGUGGGGGACUGCGUCCGCGCUUUCCCCUG",
+      "md5": "212b4843c8fb9cc0dd85d798b7d57eae"
+    }
+  },
+  "URS000000872D": {
+    "hits": {
+      "27.0": [
+        [
+          "URS000000872D",
+          "RF00020",
+          "90.4",
+          "2e-17",
+          "0",
+          "118",
+          "0",
+          "117",
+          "U5 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS000000872D",
+          "RF00020",
+          "90.4",
+          "2e-17",
+          "0",
+          "118",
+          "0",
+          "117",
+          "U5 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "6d22f8399fac1a68bf59a014b95dd941",
+      "28.0": "6d22f8399fac1a68bf59a014b95dd941"
+    },
+    "sequence": "GTACTCTGATCTCTCTTCAGTTGTCGAATAAATCTTTCGCCTTTTACTAAAGATTTCCGTGGAGAGGGATACTCTAATGAGTCTAAACTGAATTTTTGTCGTCTCGACCCCATAAGGGGTTG",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS000000872D?format=json",
+      "retrieved_utc": "2026-11-25T21:25:03.974376+00:00",
+      "response_sha256": "f7d1d9615bb4f632ce776b202b107209342752bcdc31998152f5eda0c8474e5f",
+      "urn": "URS000000872D",
+      "sequence": "GUACUCUGAUCUCUCUUCAGUUGUCGAAUAAAUCUUUCGCCUUUUACUAAAGAUUUCCGUGGAGAGGGAUACUCUAAUGAGUCUAAACUGAAUUUUUGUCGUCUCGACCCCAUAAGGGGUUG",
+      "md5": "6d22f8399fac1a68bf59a014b95dd941"
+    }
+  },
+  "URS000000A142": {
+    "hits": {
+      "27.0": [
+        [
+          "URS000000A142",
+          "RF00548",
+          "137.2",
+          "9.4e-29",
+          "0",
+          "134",
+          "0",
+          "134",
+          "U11 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS000000A142",
+          "RF00548",
+          "137.2",
+          "9.4e-29",
+          "0",
+          "134",
+          "0",
+          "134",
+          "U11 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "6d69afe753eed97bd27fbcef8cb9b409",
+      "28.0": "6d69afe753eed97bd27fbcef8cb9b409"
+    },
+    "sequence": "AAAAAGGGCTTCTGTCGTGAGTGGCACACGTAGGGCAACTCGATTGCTCTGCGTGCGGAATCGACATCAAGAGATTTCGGAAGCATAATTTTTTGGTATTTGGGCAGCTGGTGATCGTTGGTCCCGGCGCCCTTT",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS000000A142?format=json",
+      "retrieved_utc": "2026-11-25T21:25:07.298635+00:00",
+      "response_sha256": "ec25873cbbcbd3b12386fbcfb5da857f285f5ac48dd9e5b85228d3388b29e360",
+      "urn": "URS000000A142",
+      "sequence": "AAAAAGGGCUUCUGUCGUGAGUGGCACACGUAGGGCAACUCGAUUGCUCUGCGUGCGGAAUCGACAUCAAGAGAUUUCGGAAGCAUAAUUUUUUGGUAUUUGGGCAGCUGGUGAUCGUUGGUCCCGGCGCCCUUU",
+      "md5": "6d69afe753eed97bd27fbcef8cb9b409"
+    }
+  },
+  "URS000000A36B": {
+    "hits": {
+      "27.0": [
+        [
+          "URS000000A36B",
+          "RF00097",
+          "53.3",
+          "3.9e-11",
+          "0",
+          "107",
+          "0",
+          "107",
+          "Plant small nucleolar RNA R71"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS000000A36B",
+          "RF00097",
+          "53.3",
+          "3.9e-11",
+          "0",
+          "107",
+          "0",
+          "107",
+          "Plant small nucleolar RNA R71"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "7d5aef6efc284ee1c577713c2bfbcaa1",
+      "28.0": "7d5aef6efc284ee1c577713c2bfbcaa1"
+    },
+    "sequence": "ATCCCATGATGAGGACAGGCGGCTACGTACTCATGTAGTCGTTCCCATGCTTCCGGAATAGACTCATCCCTTGTCTGCTGGAAACTTGAAATCCTTCCACGAAGGGC",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS000000A36B?format=json",
+      "retrieved_utc": "2026-11-25T21:25:10.679194+00:00",
+      "response_sha256": "b6c9b8c4e5d182643f0e1dfd0ece9ac61882533a43b1a693bb0c26819dbf468e",
+      "urn": "URS000000A36B",
+      "sequence": "AUCCCAUGAUGAGGACAGGCGGCUACGUACUCAUGUAGUCGUUCCCAUGCUUCCGGAAUAGACUCAUCCCUUGUCUGCUGGAAACUUGAAAUCCUUCCACGAAGGGC",
+      "md5": "7d5aef6efc284ee1c577713c2bfbcaa1"
+    }
+  },
+  "URS000000AE62": {
+    "hits": {
+      "27.0": [
+        [
+          "URS000000AE62",
+          "RF00097",
+          "50",
+          "2.9e-10",
+          "0",
+          "107",
+          "0",
+          "107",
+          "Plant small nucleolar RNA R71"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS000000AE62",
+          "RF00097",
+          "50",
+          "2.9e-10",
+          "0",
+          "107",
+          "0",
+          "107",
+          "Plant small nucleolar RNA R71"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "04cac2f9ae2c09b5b606d4d0d71c8e5d",
+      "28.0": "04cac2f9ae2c09b5b606d4d0d71c8e5d"
+    },
+    "sequence": "ATCCCATGATGAGGATAGGCGGCCACGTACTCCTGTAGTCGTTCCCATGCTTCTGGAATGGACTCGTCCCTTGTCTGCTGGAAACTGGAAATTCGTCCACGAAGGAC",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS000000AE62?format=json",
+      "retrieved_utc": "2026-11-25T21:25:14.428976+00:00",
+      "response_sha256": "a46bbfdb66c59c16488eb9390fda848666597b6113f5c6bb5b9b1281348b0dd1",
+      "urn": "URS000000AE62",
+      "sequence": "AUCCCAUGAUGAGGAUAGGCGGCCACGUACUCCUGUAGUCGUUCCCAUGCUUCUGGAAUGGACUCGUCCCUUGUCUGCUGGAAACUGGAAAUUCGUCCACGAAGGAC",
+      "md5": "04cac2f9ae2c09b5b606d4d0d71c8e5d"
+    }
+  },
+  "URS000000C8CD": {
+    "hits": {
+      "27.0": [
+        [
+          "URS000000C8CD",
+          "RF00015",
+          "131.9",
+          "7.4e-33",
+          "0",
+          "141",
+          "0",
+          "138",
+          "U4 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS000000C8CD",
+          "RF00015",
+          "131.9",
+          "7.4e-33",
+          "0",
+          "141",
+          "0",
+          "138",
+          "U4 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "6dd30f03b470358abd81d4fa9d19887b",
+      "28.0": "6dd30f03b470358abd81d4fa9d19887b"
+    },
+    "sequence": "AGCTTTGCGCAGTGGCAGTATCGTAGCCAATGAGGTTTATCCGAGGCGCGATTATTGCTAATTGAAAACTTTTCCCAATACCCCGCCATGACGACTTGAAATATAGTCGGCATTGGCAATTTTTGACAGTCTCTACGGAGACTG",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS000000C8CD?format=json",
+      "retrieved_utc": "2026-11-25T21:25:17.703235+00:00",
+      "response_sha256": "a1fa725cd667ec803515dfc2feec056bbda2c75520f6ee557e9e2caadd4e3e9f",
+      "urn": "URS000000C8CD",
+      "sequence": "AGCUUUGCGCAGUGGCAGUAUCGUAGCCAAUGAGGUUUAUCCGAGGCGCGAUUAUUGCUAAUUGAAAACUUUUCCCAAUACCCCGCCAUGACGACUUGAAAUAUAGUCGGCAUUGGCAAUUUUUGACAGUCUCUACGGAGACUG",
+      "md5": "6dd30f03b470358abd81d4fa9d19887b"
+    }
+  },
+  "URS000000CD0C": {
+    "hits": {
+      "27.0": [
+        [
+          "URS000000CD0C",
+          "RF00020",
+          "78.1",
+          "1.2e-14",
+          "0",
+          "118",
+          "0",
+          "117",
+          "U5 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS000000CD0C",
+          "RF00020",
+          "78.1",
+          "1.2e-14",
+          "0",
+          "118",
+          "0",
+          "117",
+          "U5 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "21f002b0e3b5b20ccc2f4951aab9a3de",
+      "28.0": "21f002b0e3b5b20ccc2f4951aab9a3de"
+    },
+    "sequence": "ATCTCTGGCTCCTCTGCATTTAATCGAGAAAATCTTTCGCCTTTTACTAAAGATTTCCGTGCCAAGAAGCATTTTATGAGTATACGAGAATTTTTGGAATCCCCTCGAAAAGCGGGGTG",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS000000CD0C?format=json",
+      "retrieved_utc": "2026-11-25T21:25:20.962616+00:00",
+      "response_sha256": "aa7bd95c53dffb71a6c0cb1d15e65dea3a5896e7b609b60d30aca4543e0f0dcc",
+      "urn": "URS000000CD0C",
+      "sequence": "AUCUCUGGCUCCUCUGCAUUUAAUCGAGAAAAUCUUUCGCCUUUUACUAAAGAUUUCCGUGCCAAGAAGCAUUUUAUGAGUAUACGAGAAUUUUUGGAAUCCCCUCGAAAAGCGGGGUG",
+      "md5": "21f002b0e3b5b20ccc2f4951aab9a3de"
+    }
+  },
+  "URS000000CE4A": {
+    "hits": {
+      "27.0": [
+        [
+          "URS000000CE4A",
+          "RF00097",
+          "49.1",
+          "5e-10",
+          "0",
+          "107",
+          "0",
+          "107",
+          "Plant small nucleolar RNA R71"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS000000CE4A",
+          "RF00097",
+          "49.1",
+          "5e-10",
+          "0",
+          "107",
+          "0",
+          "107",
+          "Plant small nucleolar RNA R71"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "6de00a2b908e6cd58c7571f798fa5a61",
+      "28.0": "6de00a2b908e6cd58c7571f798fa5a61"
+    },
+    "sequence": "ATCCCATGATGAGGACAGGCAGCCATATACTCCTGCAGATGTTCCCATGCTTCAGGAATAGACTCGTCCCTCGTCTGCTGGAAACTGGAAATTCGTCCACGAAGAGC",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS000000CE4A?format=json",
+      "retrieved_utc": "2026-11-25T21:25:24.517877+00:00",
+      "response_sha256": "dd48237215a6300714730e43dbd09fb07a6833abb039fa4d9ff0dcef22e20cb7",
+      "urn": "URS000000CE4A",
+      "sequence": "AUCCCAUGAUGAGGACAGGCAGCCAUAUACUCCUGCAGAUGUUCCCAUGCUUCAGGAAUAGACUCGUCCCUCGUCUGCUGGAAACUGGAAAUUCGUCCACGAAGAGC",
+      "md5": "6de00a2b908e6cd58c7571f798fa5a61"
+    }
+  },
+  "URS000000F666": {
+    "hits": {
+      "27.0": [
+        [
+          "URS000000F666",
+          "RF00004",
+          "162.9",
+          "7.5e-37",
+          "0",
+          "194",
+          "0",
+          "192",
+          "U2 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS000000F666",
+          "RF00004",
+          "162.9",
+          "7.5e-37",
+          "0",
+          "194",
+          "0",
+          "192",
+          "U2 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "6e4c60320981766733c7981a7492269a",
+      "28.0": "6e4c60320981766733c7981a7492269a"
+    },
+    "sequence": "ATACCTTTCTCGGCCTTTTGGCTAAGATCAAGTGTAGTATCTGTTCTTATCAGTTTAATATCTGATATGTGGGCCATGTGTCTACTTTGATATTAAATTTATTTTTCGTGGGGGAGAGTCCACCATAGTGGCTTGCCACTAGGGCCCTCATGTGTCGCCTAGGCGTTGCACTACAGCCTTGGCTGGTGCACCCC",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS000000F666?format=json",
+      "retrieved_utc": "2026-11-25T21:25:28.045820+00:00",
+      "response_sha256": "6cbb1dc11ef78a8f0f652d1b50e8fc2973c2076c351ffbb24231625af81b1d42",
+      "urn": "URS000000F666",
+      "sequence": "AUACCUUUCUCGGCCUUUUGGCUAAGAUCAAGUGUAGUAUCUGUUCUUAUCAGUUUAAUAUCUGAUAUGUGGGCCAUGUGUCUACUUUGAUAUUAAAUUUAUUUUUCGUGGGGGAGAGUCCACCAUAGUGGCUUGCCACUAGGGCCCUCAUGUGUCGCCUAGGCGUUGCACUACAGCCUUGGCUGGUGCACCCC",
+      "md5": "6e4c60320981766733c7981a7492269a"
+    }
+  },
+  "URS000000FD4E": {
+    "hits": {
+      "27.0": [
+        [
+          "URS000000FD4E",
+          "RF00097",
+          "122.5",
+          "3.3e-29",
+          "0",
+          "107",
+          "0",
+          "107",
+          "Plant small nucleolar RNA R71"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS000000FD4E",
+          "RF00097",
+          "122.5",
+          "3.3e-29",
+          "0",
+          "107",
+          "0",
+          "107",
+          "Plant small nucleolar RNA R71"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "6e60ef17089cc30fb7b3527cb948ebaf",
+      "28.0": "6e60ef17089cc30fb7b3527cb948ebaf"
+    },
+    "sequence": "AAGTCATGATGAGGACATTGGTTAATGTAACCCATGAAACGCTCCAATGCTTCACAGAAGCTTTCACCAGTCTTCTGTGAAAAACCAGAGATCTCATTTTTGAGTCT",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS000000FD4E?format=json",
+      "retrieved_utc": "2026-11-25T21:25:31.565114+00:00",
+      "response_sha256": "9f26de488fd32361a19f45eab18b23d0cbd37e473f8fa26981c7e09605184638",
+      "urn": "URS000000FD4E",
+      "sequence": "AAGUCAUGAUGAGGACAUUGGUUAAUGUAACCCAUGAAACGCUCCAAUGCUUCACAGAAGCUUUCACCAGUCUUCUGUGAAAAACCAGAGAUCUCAUUUUUGAGUCU",
+      "md5": "6e60ef17089cc30fb7b3527cb948ebaf"
+    }
+  },
+  "URS0000010EEC": {
+    "hits": {
+      "27.0": [
+        [
+          "URS0000010EEC",
+          "RF00026",
+          "66",
+          "2.2e-17",
+          "0",
+          "99",
+          "0",
+          "105",
+          "U6 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS0000010EEC",
+          "RF00026",
+          "66",
+          "2.2e-17",
+          "0",
+          "99",
+          "0",
+          "105",
+          "U6 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "7e76cdcaf1aa784c5b8786247ce52870",
+      "28.0": "7e76cdcaf1aa784c5b8786247ce52870"
+    },
+    "sequence": "GTAGTTTTCTACCGCCATTGATTTGGAACAACACAGAGAAGATTAGCATGGCCCCTGCGTAAGGACGACATGTATAACTTGAGAGGCTGCCAGATGTAGATCTGGCTTTTACTTTAATATCTTTTGTTCTTCTTTTTAGCCAAG",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS0000010EEC?format=json",
+      "retrieved_utc": "2026-11-25T21:25:34.918470+00:00",
+      "response_sha256": "b10e6c487ba005ebdec362f25dc0d21d6af97f59c63ab19ae66381ec7a8524aa",
+      "urn": "URS0000010EEC",
+      "sequence": "GUAGUUUUCUACCGCCAUUGAUUUGGAACAACACAGAGAAGAUUAGCAUGGCCCCUGCGUAAGGACGACAUGUAUAACUUGAGAGGCUGCCAGAUGUAGAUCUGGCUUUUACUUUAAUAUCUUUUGUUCUUCUUUUUAGCCAAG",
+      "md5": "7e76cdcaf1aa784c5b8786247ce52870"
+    }
+  },
+  "URS00000127C5": {
+    "hits": {
+      "27.0": [
+        [
+          "URS00000127C5",
+          "RF00015",
+          "109.3",
+          "7.5e-27",
+          "0",
+          "144",
+          "0",
+          "138",
+          "U4 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS00000127C5",
+          "RF00015",
+          "109.3",
+          "7.5e-27",
+          "0",
+          "144",
+          "0",
+          "138",
+          "U4 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "05f69df54e8247b4a0ed86d5138c02d7",
+      "28.0": "05f69df54e8247b4a0ed86d5138c02d7"
+    },
+    "sequence": "ATCTTTGCGCTTGGGGCAATGACGCAGCTAATGAGGTTCTAACCGAGGCGCGTCTATTGCTGGTTGAAAACTATTTCCAAACCCCCTCCTAGGCCTAAGCTTGTCTTAGGCCTTCGAGAATTTCTGGAAGGGCTCCCTTTGGGGTAAAGCCCTA",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS00000127C5?format=json",
+      "retrieved_utc": "2026-11-25T21:25:38.193034+00:00",
+      "response_sha256": "e54205b3696eed1f34f129e1d2e108b281b91da8c94ce5d626476b9ddd71aff1",
+      "urn": "URS00000127C5",
+      "sequence": "AUCUUUGCGCUUGGGGCAAUGACGCAGCUAAUGAGGUUCUAACCGAGGCGCGUCUAUUGCUGGUUGAAAACUAUUUCCAAACCCCCUCCUAGGCCUAAGCUUGUCUUAGGCCUUCGAGAAUUUCUGGAAGGGCUCCCUUUGGGGUAAAGCCCUA",
+      "md5": "05f69df54e8247b4a0ed86d5138c02d7"
+    }
+  },
+  "URS00000132E7": {
+    "hits": {
+      "27.0": [
+        [
+          "URS00000132E7",
+          "RF00097",
+          "119.2",
+          "2.4e-28",
+          "0",
+          "106",
+          "0",
+          "107",
+          "Plant small nucleolar RNA R71"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS00000132E7",
+          "RF00097",
+          "119.2",
+          "2.4e-28",
+          "0",
+          "106",
+          "0",
+          "107",
+          "Plant small nucleolar RNA R71"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "26216273d62805a75459769a300cb43b",
+      "28.0": "26216273d62805a75459769a300cb43b"
+    },
+    "sequence": "AAGCCATGATGAGGGCATTGGTTGGTGTAACCCTTGAAACGCTCCCATGCTTCACAGAAGCTTTCACCAGCCTTCTATAAAAAGACAGAGAACTCATTTCTGGCGTT",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS00000132E7?format=json",
+      "retrieved_utc": "2026-11-25T21:25:42.267183+00:00",
+      "response_sha256": "216b140e44162143a46f61ae893f7b74af37859780828a114c448d0b5f361056",
+      "urn": "URS00000132E7",
+      "sequence": "AAGCCAUGAUGAGGGCAUUGGUUGGUGUAACCCUUGAAACGCUCCCAUGCUUCACAGAAGCUUUCACCAGCCUUCUAUAAAAAGACAGAGAACUCAUUUCUGGCGUU",
+      "md5": "26216273d62805a75459769a300cb43b"
+    }
+  },
+  "URS0000014265": {
+    "hits": {
+      "27.0": [
+        [
+          "URS0000014265",
+          "RF00004",
+          "110.9",
+          "1.5e-24",
+          "0",
+          "132",
+          "24",
+          "155",
+          "U2 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS0000014265",
+          "RF00004",
+          "110.9",
+          "1.5e-24",
+          "0",
+          "132",
+          "24",
+          "155",
+          "U2 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "72495177bac4db538d3de6567630a7b6",
+      "28.0": "72495177bac4db538d3de6567630a7b6"
+    },
+    "sequence": "GATCAAAGTGTAGTATCTGTTCTTATCAGCTTAATATCTGATACGTCCCTCATTGAGGGACCAGAATATTAAACTGATTTTTGGAACTAGGCGGAGTGTTCGGGGCTTGCTCCACCTCTGCCACGGGTTGGC",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS0000014265?format=json",
+      "retrieved_utc": "2026-11-25T21:25:48.958975+00:00",
+      "response_sha256": "96d47ac00c7b7bb57dfc0b61feead3b63b2ec88e43c8e30db721bb894e624e15",
+      "urn": "URS0000014265",
+      "sequence": "GAUCAAAGUGUAGUAUCUGUUCUUAUCAGCUUAAUAUCUGAUACGUCCCUCAUUGAGGGACCAGAAUAUUAAACUGAUUUUUGGAACUAGGCGGAGUGUUCGGGGCUUGCUCCACCUCUGCCACGGGUUGGC",
+      "md5": "72495177bac4db538d3de6567630a7b6"
+    }
+  },
+  "URS00000143C7": {
+    "hits": {
+      "27.0": [
+        [
+          "URS00000143C7",
+          "RF00003",
+          "57.7",
+          "3.9e-15",
+          "2",
+          "159",
+          "4",
+          "166",
+          "U1 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS00000143C7",
+          "RF00003",
+          "57.7",
+          "3.9e-15",
+          "2",
+          "159",
+          "4",
+          "166",
+          "U1 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "822b9d7a266505c537e7d8f319c9bd4d",
+      "28.0": "822b9d7a266505c537e7d8f319c9bd4d"
+    },
+    "sequence": "AATTACAATGTTGTAGTTAGCTATATATCAAAAAATATAGCAACTAAGGTGGAGCAAGTCATTGTACTAAAGATGTTTGTAATACCTTGATGTTCCCGCTGGGAGCAATAACAACAAAATTTCTGATTGGAAATAGTCATTAAACTAACTGGCTATTTCCTCT",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS00000143C7?format=json",
+      "retrieved_utc": "2026-11-25T21:25:52.280956+00:00",
+      "response_sha256": "2a9b115a51e1c9206be1f364b95f9862502dfdd598edfa04aa78a0d4a03373d2",
+      "urn": "URS00000143C7",
+      "sequence": "AAUUACAAUGUUGUAGUUAGCUAUAUAUCAAAAAAUAUAGCAACUAAGGUGGAGCAAGUCAUUGUACUAAAGAUGUUUGUAAUACCUUGAUGUUCCCGCUGGGAGCAAUAACAACAAAAUUUCUGAUUGGAAAUAGUCAUUAAACUAACUGGCUAUUUCCUCU",
+      "md5": "822b9d7a266505c537e7d8f319c9bd4d"
+    }
+  },
+  "URS0000016543": {
+    "hits": {
+      "27.0": [
+        [
+          "URS0000016543",
+          "RF00020",
+          "88.5",
+          "5.2e-17",
+          "0",
+          "116",
+          "0",
+          "117",
+          "U5 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS0000016543",
+          "RF00020",
+          "88.5",
+          "5.2e-17",
+          "0",
+          "116",
+          "0",
+          "117",
+          "U5 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "26acc8749dd6c45a8ccf7e7e521b22aa",
+      "28.0": "26acc8749dd6c45a8ccf7e7e521b22aa"
+    },
+    "sequence": "ATACTCTGGTTTCTCTTCAGATCATATAAATGTTTTGCCTTTTACTAAAGATTTCCATGGAAAGGAACAACTTTGAGTCTGAAGCCAATTTTTTGAGTCCTTGTTTCATCAAGTTT",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS0000016543?format=json",
+      "retrieved_utc": "2026-11-25T21:25:59.533626+00:00",
+      "response_sha256": "b936322556cfe15a6dccdde0347785080a4506bf27274de46cae84f32e39483c",
+      "urn": "URS0000016543",
+      "sequence": "AUACUCUGGUUUCUCUUCAGAUCAUAUAAAUGUUUUGCCUUUUACUAAAGAUUUCCAUGGAAAGGAACAACUUUGAGUCUGAAGCCAAUUUUUUGAGUCCUUGUUUCAUCAAGUUU",
+      "md5": "26acc8749dd6c45a8ccf7e7e521b22aa"
+    }
+  },
+  "URS0000016884": {
+    "hits": {
+      "27.0": [
+        [
+          "URS0000016884",
+          "RF00004",
+          "74.5",
+          "8.4e-16",
+          "0",
+          "140",
+          "0",
+          "184",
+          "U2 spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS0000016884",
+          "RF00004",
+          "74.5",
+          "8.4e-16",
+          "0",
+          "140",
+          "0",
+          "184",
+          "U2 spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "0377ba2adafb72ff84f94ad23f7a15be",
+      "28.0": "0377ba2adafb72ff84f94ad23f7a15be"
+    },
+    "sequence": "ATATCTTCTCGGCTATTTAGCTAAGATCATGTTTATAAACTGTTCTTATCAGAGTAACTCCTGATACTGCCTTCGGGCAAAGGAATAGAAATTATATCTCAAGGTTGTTTCCCTGGAGTTCCACGTTTCCAGGGAGCAAC",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS0000016884?format=json",
+      "retrieved_utc": "2026-11-25T21:26:03.199558+00:00",
+      "response_sha256": "0405fb9e77eec31b100aab57b1c04671e061bc054846b58b86e39743f20e4699",
+      "urn": "URS0000016884",
+      "sequence": "AUAUCUUCUCGGCUAUUUAGCUAAGAUCAUGUUUAUAAACUGUUCUUAUCAGAGUAACUCCUGAUACUGCCUUCGGGCAAAGGAAUAGAAAUUAUAUCUCAAGGUUGUUUCCCUGGAGUUCCACGUUUCCAGGGAGCAAC",
+      "md5": "0377ba2adafb72ff84f94ad23f7a15be"
+    }
+  },
+  "URS0000017CAA": {
+    "hits": {
+      "27.0": [
+        [
+          "URS0000017CAA",
+          "RF00618",
+          "66.9",
+          "2.2e-12",
+          "2",
+          "69",
+          "0",
+          "66",
+          "U4atac minor spliceosomal RNA"
+        ]
+      ],
+      "28.0": [
+        [
+          "URS0000017CAA",
+          "RF00618",
+          "66.9",
+          "2.2e-12",
+          "2",
+          "69",
+          "0",
+          "66",
+          "U4atac minor spliceosomal RNA"
+        ]
+      ]
+    },
+    "hashes": {
+      "27.0": "03abb01808f91cbbdeac6b1703213ae4",
+      "28.0": "03abb01808f91cbbdeac6b1703213ae4"
+    },
+    "sequence": "TAACCATCCTTTTCTTGGGGTTGCGCTACTGTCCAATGAGCGCAAAGTGAGGGCAGTACTGCTAACGCC",
+    "source_receipt": {
+      "url": "https://rnacentral.org/api/v1/rna/URS0000017CAA?format=json",
+      "retrieved_utc": "2026-11-25T21:26:06.655117+00:00",
+      "response_sha256": "3df4097777a4c6406764293da60d4ca6aa0174891a0b706e76438bcf10c42274",
+      "urn": "URS0000017CAA",
+      "sequence": "UAACCAUCCUUUUCUUGGGGUUGCGCUACUGUCCAAUGAGCGCAAAGUGAGGGCAGUACUGCUAACGCC",
+      "md5": "03abb01808f91cbbdeac6b1703213ae4"
+    }
+  }
+}

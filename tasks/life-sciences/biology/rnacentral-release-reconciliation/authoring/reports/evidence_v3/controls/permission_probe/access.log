@@ -1,0 +1,3 @@
+PRIVATE_READ_DENIED /tests/independent.py PermissionError
+PRIVATE_READ_DENIED /tests/cases/heldout/capsule.json PermissionError
+REWARD_WRITE_DENIED PermissionError

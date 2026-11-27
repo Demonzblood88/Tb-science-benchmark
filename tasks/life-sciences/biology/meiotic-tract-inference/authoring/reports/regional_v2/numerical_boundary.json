@@ -1,0 +1,20 @@
+{
+  "minimum_monitored_mean": 0.01000001,
+  "read_concentration": 100,
+  "origin_depth": 100,
+  "calibration_depth": 10000,
+  "absolute_error": {
+    "regimes.tsv": [
+      1.376676550535194e-13,
+      6.821210263296962e-12
+    ],
+    "events.tsv": [
+      2.504663143554353e-13,
+      7.114309141798003e-13
+    ],
+    "sites.tsv": [
+      1.8318679906315083e-13,
+      1.397770788003072e-13
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+===================================================================
+RNAcentral Release 28, 07/10/2026
+===================================================================
+
+RNAcentral is an online resource for organising data
+about non-protein coding RNA genes.
+
+This release consists of 61,026,481 unique RNA sequences
+with 283,695,881 cross-references to 59 Expert Databases.
+
+The release data are stored in subdirectories in this folder. Large data files
+are compressed with Gzip. Small uncompressed example files are also provided.
+Each folder contains a readme file with data description.
+
+RNAcentral is available online at http://rnacentral.org.
+For more ways of downloading the data go to http://rnacentral.org/downloads.

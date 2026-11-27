@@ -1,0 +1,247 @@
+{
+  "seed": 98231,
+  "selected_regime": {
+    "id": "R31_1",
+    "co_per_bp": 1.045e-05,
+    "gc_per_bp": 1.358e-05,
+    "mean_tract_bp": 2109.0,
+    "prior": 0.08
+  },
+  "chromosomes": [
+    {
+      "tetrad": "T60_0",
+      "chromosome": "chr23_0",
+      "sister_group": [
+        1,
+        2
+      ],
+      "events": [
+        {
+          "position": 40192.67268217871,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 46527.20606644346,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 51572.44994000021,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 3,
+      "gc_count": 0
+    },
+    {
+      "tetrad": "T60_0",
+      "chromosome": "chr23_1",
+      "sister_group": [
+        1,
+        2
+      ],
+      "events": [
+        {
+          "position": 49474.01855421683,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 1,
+      "gc_count": 0
+    },
+    {
+      "tetrad": "T60_1",
+      "chromosome": "chr23_0",
+      "sister_group": [
+        1,
+        2
+      ],
+      "events": [
+        {
+          "position": 41288.30323814566,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 1,
+      "gc_count": 0
+    },
+    {
+      "tetrad": "T60_1",
+      "chromosome": "chr23_1",
+      "sister_group": [
+        2,
+        3
+      ],
+      "events": [
+        {
+          "position": 49459.27550590025,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 1,
+      "gc_count": 0
+    },
+    {
+      "tetrad": "T60_2",
+      "chromosome": "chr23_0",
+      "sister_group": [
+        1,
+        3
+      ],
+      "events": [
+        {
+          "position": 40478.80031013699,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 46172.06631751318,
+          "type": "initiation",
+          "recipient": 1,
+          "donor": 1
+        },
+        {
+          "position": 46273.29600681858,
+          "type": "termination"
+        },
+        {
+          "position": 60452.70914526933,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 2,
+      "gc_count": 1
+    },
+    {
+      "tetrad": "T60_2",
+      "chromosome": "chr23_1",
+      "sister_group": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "position": 3104.9857793146966,
+          "type": "initiation",
+          "recipient": 3,
+          "donor": 1
+        },
+        {
+          "position": 4577.895428503745,
+          "type": "termination"
+        },
+        {
+          "position": 57516.90817510353,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 1,
+      "gc_count": 1
+    },
+    {
+      "tetrad": "T60_3",
+      "chromosome": "chr23_0",
+      "sister_group": [
+        1,
+        2
+      ],
+      "events": [
+        {
+          "position": 1623.539543485027,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 39717.52753576592,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 2,
+      "gc_count": 0
+    },
+    {
+      "tetrad": "T60_3",
+      "chromosome": "chr23_1",
+      "sister_group": [
+        0,
+        2
+      ],
+      "events": [
+        {
+          "position": 57180.612066200614,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 1,
+      "gc_count": 0
+    },
+    {
+      "tetrad": "T60_4",
+      "chromosome": "chr23_0",
+      "sister_group": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "position": 24227.404328577395,
+          "type": "initiation",
+          "recipient": 1,
+          "donor": 0
+        },
+        {
+          "position": 28369.04748014313,
+          "type": "termination"
+        },
+        {
+          "position": 49737.43072620948,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 1,
+      "gc_count": 1
+    },
+    {
+      "tetrad": "T60_4",
+      "chromosome": "chr23_1",
+      "sister_group": [
+        2,
+        3
+      ],
+      "events": [
+        {
+          "position": 31166.710506233572,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 51842.31659536261,
+          "type": "initiation",
+          "recipient": 2,
+          "donor": 1
+        },
+        {
+          "position": 54750.743664752685,
+          "type": "termination"
+        },
+        {
+          "position": 56600.74475099882,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 2,
+      "gc_count": 1
+    }
+  ]
+}

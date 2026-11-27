@@ -1,0 +1,448 @@
+{
+  "seed": 87063,
+  "selected_regime": {
+    "id": "R63_6",
+    "co_per_bp": 2.781e-05,
+    "gc_per_bp": 3.6259999999999995e-05,
+    "mean_tract_bp": 637.0,
+    "prior": 0.12
+  },
+  "chromosomes": [
+    {
+      "tetrad": "T68_0",
+      "chromosome": "chr15_0",
+      "sister_group": [
+        0,
+        3
+      ],
+      "events": [
+        {
+          "position": 27428.2848272476,
+          "type": "initiation",
+          "recipient": 0,
+          "donor": 0
+        },
+        {
+          "position": 28430.417506998954,
+          "type": "termination"
+        },
+        {
+          "position": 32662.29835148262,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 42664.392075629126,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 43955.202403055235,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 50091.18771990361,
+          "type": "initiation",
+          "recipient": 3,
+          "donor": 1
+        },
+        {
+          "position": 50310.677406484705,
+          "type": "termination"
+        },
+        {
+          "position": 61616.168324947444,
+          "type": "crossover",
+          "silent": true
+        },
+        {
+          "position": 68233.59253566597,
+          "type": "crossover",
+          "silent": true
+        }
+      ],
+      "co_count": 5,
+      "gc_count": 2
+    },
+    {
+      "tetrad": "T68_0",
+      "chromosome": "chr15_1",
+      "sister_group": [
+        0,
+        2
+      ],
+      "events": [
+        {
+          "position": 50377.53976210407,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 58269.68247038512,
+          "type": "crossover",
+          "silent": true
+        },
+        {
+          "position": 59349.81750071144,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 59698.61092533799,
+          "type": "initiation",
+          "recipient": 2,
+          "donor": 0
+        },
+        {
+          "position": 60367.94598288762,
+          "type": "termination"
+        },
+        {
+          "position": 69307.12081327624,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 4,
+      "gc_count": 1
+    },
+    {
+      "tetrad": "T68_1",
+      "chromosome": "chr15_0",
+      "sister_group": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "position": 44028.99681784145,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 50154.48501332991,
+          "type": "initiation",
+          "recipient": 2,
+          "donor": 1
+        },
+        {
+          "position": 50454.846529122275,
+          "type": "termination"
+        },
+        {
+          "position": 61756.94173268844,
+          "type": "initiation",
+          "recipient": 1,
+          "donor": 0
+        },
+        {
+          "position": 62306.07147494636,
+          "type": "termination"
+        },
+        {
+          "position": 69804.64540503442,
+          "type": "crossover",
+          "silent": true
+        }
+      ],
+      "co_count": 2,
+      "gc_count": 2
+    },
+    {
+      "tetrad": "T68_1",
+      "chromosome": "chr15_1",
+      "sister_group": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "position": 29572.234325404166,
+          "type": "initiation",
+          "recipient": 3,
+          "donor": 1
+        },
+        {
+          "position": 30878.945436149632,
+          "type": "termination"
+        },
+        {
+          "position": 33423.447625440596,
+          "type": "initiation",
+          "recipient": 1,
+          "donor": 0
+        },
+        {
+          "position": 33570.54413951172,
+          "type": "termination"
+        },
+        {
+          "position": 41194.70797333621,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 46117.24943006644,
+          "type": "initiation",
+          "recipient": 2,
+          "donor": 1
+        },
+        {
+          "position": 47308.37214032243,
+          "type": "termination"
+        },
+        {
+          "position": 68415.25936423696,
+          "type": "crossover",
+          "silent": true
+        }
+      ],
+      "co_count": 2,
+      "gc_count": 3
+    },
+    {
+      "tetrad": "T68_2",
+      "chromosome": "chr15_0",
+      "sister_group": [
+        0,
+        3
+      ],
+      "events": [
+        {
+          "position": 18151.38542700292,
+          "type": "initiation",
+          "recipient": 0,
+          "donor": 0
+        },
+        {
+          "position": 23277.31270601212,
+          "type": "termination"
+        },
+        {
+          "position": 24857.269521581256,
+          "type": "initiation",
+          "recipient": 2,
+          "donor": 1
+        },
+        {
+          "position": 25357.902206448878,
+          "type": "termination"
+        },
+        {
+          "position": 45422.50517902925,
+          "type": "initiation",
+          "recipient": 1,
+          "donor": 1
+        },
+        {
+          "position": 45778.80736482432,
+          "type": "termination"
+        },
+        {
+          "position": 47529.73372240604,
+          "type": "initiation",
+          "recipient": 0,
+          "donor": 0
+        },
+        {
+          "position": 48311.05683904211,
+          "type": "termination"
+        },
+        {
+          "position": 52500.10044358013,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 55279.78505447442,
+          "type": "initiation",
+          "recipient": 0,
+          "donor": 1
+        },
+        {
+          "position": 55729.72916195614,
+          "type": "termination"
+        },
+        {
+          "position": 56131.45062153078,
+          "type": "crossover",
+          "silent": true
+        }
+      ],
+      "co_count": 2,
+      "gc_count": 5
+    },
+    {
+      "tetrad": "T68_2",
+      "chromosome": "chr15_1",
+      "sister_group": [
+        1,
+        3
+      ],
+      "events": [
+        {
+          "position": 41465.80379427127,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 42747.674129748164,
+          "type": "crossover",
+          "silent": true
+        },
+        {
+          "position": 58466.075306728046,
+          "type": "crossover",
+          "silent": true
+        }
+      ],
+      "co_count": 3,
+      "gc_count": 0
+    },
+    {
+      "tetrad": "T68_3",
+      "chromosome": "chr15_0",
+      "sister_group": [
+        1,
+        2
+      ],
+      "events": [
+        {
+          "position": 278.6549678391184,
+          "type": "initiation",
+          "recipient": 1,
+          "donor": 0
+        },
+        {
+          "position": 794.8793122016515,
+          "type": "termination"
+        },
+        {
+          "position": 18760.963525467218,
+          "type": "initiation",
+          "recipient": 0,
+          "donor": 1
+        },
+        {
+          "position": 19332.60326961589,
+          "type": "termination"
+        },
+        {
+          "position": 24840.891086369455,
+          "type": "initiation",
+          "recipient": 2,
+          "donor": 0
+        },
+        {
+          "position": 25267.919688339913,
+          "type": "termination"
+        },
+        {
+          "position": 48523.38440285834,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 52059.67085522015,
+          "type": "crossover",
+          "silent": true
+        },
+        {
+          "position": 56415.005906327664,
+          "type": "initiation",
+          "recipient": 0,
+          "donor": 0
+        },
+        {
+          "position": 56545.16487946379,
+          "type": "termination"
+        },
+        {
+          "position": 63342.41276922163,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 65367.92650417173,
+          "type": "initiation",
+          "recipient": 0,
+          "donor": 0
+        },
+        {
+          "position": 65427.54742764131,
+          "type": "termination"
+        }
+      ],
+      "co_count": 3,
+      "gc_count": 5
+    },
+    {
+      "tetrad": "T68_3",
+      "chromosome": "chr15_1",
+      "sister_group": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "position": 14159.090799177897,
+          "type": "initiation",
+          "recipient": 1,
+          "donor": 0
+        },
+        {
+          "position": 14174.328244377448,
+          "type": "termination"
+        },
+        {
+          "position": 36046.53020874733,
+          "type": "initiation",
+          "recipient": 1,
+          "donor": 0
+        },
+        {
+          "position": 36076.564618081175,
+          "type": "termination"
+        },
+        {
+          "position": 36337.2418514071,
+          "type": "initiation",
+          "recipient": 3,
+          "donor": 1
+        },
+        {
+          "position": 36601.14889399105,
+          "type": "termination"
+        },
+        {
+          "position": 46695.602309515794,
+          "type": "initiation",
+          "recipient": 1,
+          "donor": 0
+        },
+        {
+          "position": 46912.960767824654,
+          "type": "termination"
+        },
+        {
+          "position": 50825.59099938574,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 67567.85095562048,
+          "type": "initiation",
+          "recipient": 3,
+          "donor": 1
+        },
+        {
+          "position": 68016.0554120406,
+          "type": "termination"
+        }
+      ],
+      "co_count": 1,
+      "gc_count": 5
+    }
+  ]
+}

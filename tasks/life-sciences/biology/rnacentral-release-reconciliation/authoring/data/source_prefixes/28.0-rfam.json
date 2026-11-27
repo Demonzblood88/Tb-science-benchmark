@@ -1,0 +1,34 @@
+{
+  "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/28.0/rfam/rfam_annotations.tsv.gz",
+  "requested_range": [
+    0,
+    2097151
+  ],
+  "downloaded_utc": "2026-11-25T19:32:56.066833+00:00",
+  "status": 206,
+  "headers": {
+    "Date": "Wed, 25 Nov 2026 19:32:58 GMT",
+    "Server": "Apache",
+    "Last-Modified": "Wed, 07 Oct 2026 09:50:17 GMT",
+    "ETag": "\"1ae8d3a9-65d3d0adeacc9\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "2097152",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,OPTIONS",
+    "Access-Control-Allow-Headers": "Authorization,Origin,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Accept",
+    "Content-Range": "bytes 0-2097151/451466153",
+    "Connection": "close",
+    "Content-Type": "application/x-gzip"
+  },
+  "compressed_bytes": 2097152,
+  "compressed_prefix_sha256": "408009838d59820d6259906a4a423bdd6f2cb7f40dfa7a8a20c9d8e2011a664b",
+  "decoded_bytes": 11280152,
+  "decoded_prefix_sha256": "c1018eb35877c61b09117e612c457d55725ec21c4d156e2ced119fd96ca9c778",
+  "complete_gzip_stream": false,
+  "coverage": "prefix only; global absence cannot be inferred",
+  "first_lines": [
+    "URS0000000001\tRF00177\t108.4\t7.3e-33\t2\t200\t29\t230\tBacterial small subunit ribosomal RNA",
+    "URS0000000003\tRF00177\t298.2\t1.5e-93\t0\t363\t116\t478\tBacterial small subunit ribosomal RNA",
+    "URS0000000004\tRF00177\t284\t4.9e-89\t0\t332\t567\t899\tBacterial small subunit ribosomal RNA"
+  ]
+}

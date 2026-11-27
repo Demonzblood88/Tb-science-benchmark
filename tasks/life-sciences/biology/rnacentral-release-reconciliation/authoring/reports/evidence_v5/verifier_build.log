@@ -1,0 +1,93 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 496B 0.1s done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context:
+#3 transferring context: 72B 0.1s done
+#3 DONE 0.1s
+
+#4 [1/6] FROM docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0
+#4 resolve docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0 0.3s done
+#4 CACHED
+
+#5 [internal] load build context
+#5 transferring context: 3.14MB 1.3s done
+#5 DONE 1.4s
+
+#6 [2/6] COPY requirements.txt /tmp/requirements.txt
+#6 DONE 0.5s
+
+#7 [3/6] RUN pip install --no-cache-dir -r /tmp/requirements.txt
+#7 5.448 Collecting numpy==2.2.6 (from -r /tmp/requirements.txt (line 2))
+#7 6.080   Downloading numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+#7 6.622 Collecting biopython==1.85 (from -r /tmp/requirements.txt (line 3))
+#7 6.803   Downloading biopython-1.85-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (13 kB)
+#7 7.047 Collecting ViennaRNA==2.7.2 (from -r /tmp/requirements.txt (line 4))
+#7 7.207   Downloading viennarna-2.7.2-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (13 kB)
+#7 7.559 Collecting pytest==8.4.1 (from -r /tmp/requirements.txt (line 5))
+#7 7.728   Downloading pytest-8.4.1-py3-none-any.whl.metadata (7.7 kB)
+#7 7.916 Collecting pytest-json-ctrf==0.3.5 (from -r /tmp/requirements.txt (line 6))
+#7 8.078   Downloading pytest_json_ctrf-0.3.5-py3-none-any.whl.metadata (3.3 kB)
+#7 8.455 Collecting iniconfig>=1 (from pytest==8.4.1->-r /tmp/requirements.txt (line 5))
+#7 8.615   Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+#7 8.959 Collecting packaging>=20 (from pytest==8.4.1->-r /tmp/requirements.txt (line 5))
+#7 9.139   Downloading packaging-26.4-py3-none-any.whl.metadata (3.5 kB)
+#7 9.363 Collecting pluggy<2,>=1.5 (from pytest==8.4.1->-r /tmp/requirements.txt (line 5))
+#7 9.541   Downloading pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+#7 9.803 Collecting pygments>=2.7.2 (from pytest==8.4.1->-r /tmp/requirements.txt (line 5))
+#7 9.982   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+#7 10.19 Downloading numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.5 MB)
+#7 87.04    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.5/16.5 MB 81.2 kB/s eta 0:00:00
+#7 87.23 Downloading biopython-1.85-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+#7 140.6    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 43.7 kB/s eta 0:00:00
+#7 140.8 Downloading viennarna-2.7.2-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (13.4 MB)
+#7 273.3    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.4/13.4 MB 174.4 kB/s eta 0:00:00
+#7 273.5 Downloading pytest-8.4.1-py3-none-any.whl (365 kB)
+#7 274.1 Downloading pytest_json_ctrf-0.3.5-py3-none-any.whl (6.8 kB)
+#7 274.3 Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+#7 274.4 Downloading packaging-26.4-py3-none-any.whl (140 kB)
+#7 274.7 Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
+#7 274.9 Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+#7 276.2    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 874.3 kB/s eta 0:00:00
+#7 276.4 Installing collected packages: ViennaRNA, pygments, pluggy, packaging, numpy, iniconfig, pytest, biopython, pytest-json-ctrf
+#7 286.8 Successfully installed ViennaRNA-2.7.2 biopython-1.85 iniconfig-2.3.1 numpy-2.2.6 packaging-26.4 pluggy-1.7.0 pygments-2.21.0 pytest-8.4.1 pytest-json-ctrf-0.3.5
+#7 286.8 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#7 288.2 
+#7 288.2 [notice] A new release of pip is available: 24.3.1 -> 26.3
+#7 288.2 [notice] To update, run: pip install --upgrade pip
+#7 DONE 288.9s
+
+#8 [2/6] COPY requirements.txt /tmp/requirements.txt
+#8 CACHED
+
+#9 [3/6] RUN pip install --no-cache-dir -r /tmp/requirements.txt
+#9 CACHED
+
+#10 [4/6] COPY . /tests/
+#10 DONE 0.5s
+
+#11 [5/6] RUN mkdir -p /app/submission /app/output /logs/verifier && chmod 700 /tests
+#11 DONE 1.0s
+
+#12 [6/6] WORKDIR /tests
+#12 DONE 1.0s
+
+#13 exporting to image
+#13 exporting layers
+#13 exporting layers 8.7s done
+#13 exporting manifest sha256:d8a10d76200be0073544fea8c7e5aa89dc36f3e53b09733fd2e6e2aa64dd45b2 0.1s done
+#13 exporting config sha256:39a4f9b6953441e4fb1bb9e9e0b421f469924fe63aaf373888f23c7c6b8fb8e0 0.1s done
+#13 exporting attestation manifest sha256:4ff58a45a5c4c4590b147506cc3bd1c385b9b377516134efa825b200182d7903 0.1s done
+#13 exporting manifest list sha256:464bd7a7f05b0f27f6c5836a8d0862ccf9c3cb5180e25b52a450c102a3a597ac
+#13 exporting manifest list sha256:464bd7a7f05b0f27f6c5836a8d0862ccf9c3cb5180e25b52a450c102a3a597ac 0.1s done
+#13 naming to docker.io/library/v5-release-controls-verifier:latest
+#13 naming to docker.io/library/v5-release-controls-verifier:latest 0.0s done
+#13 unpacking to docker.io/library/v5-release-controls-verifier:latest
+#13 unpacking to docker.io/library/v5-release-controls-verifier:latest 6.6s done
+#13 DONE 16.1s

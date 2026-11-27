@@ -1,0 +1,86 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 564B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 72B 0.0s done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [1/7] FROM docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0
+#5 resolve docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0 0.0s done
+#5 CACHED
+
+#4 [internal] load build context
+#4 transferring context: 773.10kB 0.1s done
+#4 DONE 0.1s
+
+#6 [2/7] COPY requirements.txt /tmp/requirements.txt
+#6 DONE 0.0s
+
+#7 [3/7] RUN pip install --no-cache-dir -r /tmp/requirements.txt
+#7 2.510 Collecting numpy==2.2.6 (from -r /tmp/requirements.txt (line 2))
+#7 3.060   Downloading numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+#7 3.476 Collecting biopython==1.85 (from -r /tmp/requirements.txt (line 3))
+#7 3.655   Downloading biopython-1.85-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (13 kB)
+#7 3.850 Collecting ViennaRNA==2.7.2 (from -r /tmp/requirements.txt (line 4))
+#7 4.027   Downloading viennarna-2.7.2-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (13 kB)
+#7 4.214 Downloading numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.5 MB)
+#7 5.868    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.5/16.5 MB 11.8 MB/s eta 0:00:00
+#7 6.042 Downloading biopython-1.85-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+#7 6.263    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 14.8 MB/s eta 0:00:00
+#7 6.440 Downloading viennarna-2.7.2-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (13.4 MB)
+#7 10.70    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.4/13.4 MB 3.1 MB/s eta 0:00:00
+#7 10.75 Installing collected packages: ViennaRNA, numpy, biopython
+#7 13.45 Successfully installed ViennaRNA-2.7.2 biopython-1.85 numpy-2.2.6
+#7 13.45 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#7 14.11 
+#7 14.11 [notice] A new release of pip is available: 24.3.1 -> 26.3
+#7 14.11 [notice] To update, run: pip install --upgrade pip
+#7 DONE 14.3s
+
+#8 [4/7] WORKDIR /app
+#8 DONE 0.1s
+
+#9 [5/7] COPY data/ /app/data/
+#9 DONE 0.1s
+
+#10 [6/7] COPY DATA_CONTRACT.md /app/DATA_CONTRACT.md
+#10 DONE 0.0s
+
+#11 [7/7] RUN cd /app/data && sha256sum -c data_checksums.sha256 && mkdir -p /app/submission /app/output
+#11 0.209 27.0/active.fasta.gz: OK
+#11 0.210 27.0/id_mapping.tsv.gz: OK
+#11 0.210 27.0/inactive.fasta.gz: OK
+#11 0.210 27.0/md5.tsv.gz: OK
+#11 0.210 27.0/rfam.tsv.gz: OK
+#11 0.210 27.0/species.fasta.gz: OK
+#11 0.210 28.0/active.fasta.gz: OK
+#11 0.211 28.0/id_mapping.tsv.gz: OK
+#11 0.211 28.0/inactive.fasta.gz: OK
+#11 0.211 28.0/md5.tsv.gz: OK
+#11 0.211 28.0/rfam.tsv.gz: OK
+#11 0.211 28.0/species.fasta.gz: OK
+#11 0.212 capsule.json: OK
+#11 0.212 release_transfer.json: OK
+#11 DONE 0.2s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 3.3s done
+#12 exporting manifest sha256:5a5e5fcdccb47749a14323b3726e8dc1730e9db20d72ffe80a420b1638130a08 0.0s done
+#12 exporting config sha256:4eef1b135fe62ece306d9bb35da076fffc990d185ea7c1e0082bf528703a737b 0.0s done
+#12 exporting attestation manifest sha256:0cd9b079e328d30f1bbc52260fccaf14ab3d2ab1b9fb8aa8be472e90dee88e92 0.0s done
+#12 exporting manifest list sha256:8a35919fbaf96d06edfb2692d8fe506367ccaacc57b78e0acf487a379a7f92db 0.0s done
+#12 naming to docker.io/library/rna-agent:v3
+#12 naming to docker.io/library/rna-agent:v3 done
+#12 unpacking to docker.io/library/rna-agent:v3
+#12 unpacking to docker.io/library/rna-agent:v3 1.0s done
+#12 DONE 4.4s

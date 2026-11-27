@@ -1,0 +1,52 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 523B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/7] FROM docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0
+#4 resolve docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0 0.0s done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 88.55kB 0.0s done
+#5 DONE 0.0s
+
+#6 [2/7] COPY requirements.txt /tmp/requirements.txt
+#6 CACHED
+
+#7 [3/7] RUN pip install --no-cache-dir -r /tmp/requirements.txt
+#7 CACHED
+
+#8 [4/7] WORKDIR /app
+#8 CACHED
+
+#9 [5/7] COPY data/ /app/data/
+#9 CACHED
+
+#10 [6/7] COPY ASSAY.md /app/ASSAY.md
+#10 DONE 0.0s
+
+#11 [7/7] RUN cd /app/data && sha256sum -c data_checksums.sha256 && mkdir -p /app/submission /app/results
+#11 0.171 controls.tsv: OK
+#11 0.171 markers.tsv: OK
+#11 0.172 reads.tsv: OK
+#11 0.172 study.json: OK
+#11 DONE 0.2s
+
+#12 exporting to image
+#12 exporting layers 0.1s done
+#12 exporting manifest sha256:d48d9ac7edb7123a8ba23d1166d696fefcd23a04d10007a56355eadaae65c443 0.0s done
+#12 exporting config sha256:03fdce408de80523144ee1df22ffe73d6939cc8c5edb0149500a2a6135d47659 0.0s done
+#12 exporting attestation manifest sha256:61be689361abefb66620c5ff1bcc204cc2c63c08f57f0eee289c83075eaaec6b 0.0s done
+#12 exporting manifest list sha256:c11112b5016b627fb8d9800ef8e9c283aa19eb01b31d852d78168f6279a0a05b 0.0s done
+#12 naming to docker.io/library/meiotic-agent:1 done
+#12 unpacking to docker.io/library/meiotic-agent:1 0.0s done
+#12 DONE 0.3s

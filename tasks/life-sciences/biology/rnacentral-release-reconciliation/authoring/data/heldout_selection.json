@@ -1,0 +1,439 @@
+{
+  "method": "Deterministic first-ranked coverage strata, no model outcome selection",
+  "offset": 5,
+  "selected_urs": [
+    "URS0000000012",
+    "URS0000000013",
+    "URS0000000014",
+    "URS0000000027",
+    "URS000000002B",
+    "URS0000000050",
+    "URS000000007C",
+    "URS0000000082",
+    "URS000000008C",
+    "URS0000000090",
+    "URS00000000AC",
+    "URS00000000AD",
+    "URS00000000B2",
+    "URS00000000B7",
+    "URS00000000C1",
+    "URS00000000F8",
+    "URS00000000FF",
+    "URS000000011E",
+    "URS000000011F",
+    "URS0000000136",
+    "URS0000000169",
+    "URS0000000172",
+    "URS0000000179",
+    "URS0000000181",
+    "URS0000000185",
+    "URS0000000186",
+    "URS000000019F",
+    "URS00000001AC",
+    "URS00000001C4",
+    "URS00000001DF",
+    "URS000000022A",
+    "URS000000023C",
+    "URS0000000259",
+    "URS0000000271",
+    "URS000000028D",
+    "URS00000002E6",
+    "URS000000035C",
+    "URS00000003D9",
+    "URS00000003F0",
+    "URS00000003FE",
+    "URS000000042E",
+    "URS0000000546",
+    "URS0000000595",
+    "URS00000005B0",
+    "URS00000005D1",
+    "URS00000005DF",
+    "URS000000060E",
+    "URS0000000626",
+    "URS0000000658",
+    "URS000000074D",
+    "URS0000000787",
+    "URS0000000849",
+    "URS0000000926",
+    "URS00000009A3",
+    "URS0000000C0D",
+    "URS0000000CF3",
+    "URS0000000DEA",
+    "URS0000000E4A",
+    "URS0000000EDF",
+    "URS0000000F66",
+    "URS00000013FA",
+    "URS000000187C",
+    "URS0000001B80",
+    "URS0000001BDA",
+    "URS0000001C12",
+    "URS0000001CB5",
+    "URS000000213F",
+    "URS0000002417",
+    "URS00000024AE",
+    "URS0000002524",
+    "URS0000002616",
+    "URS0000002695",
+    "URS00000028D7",
+    "URS00000028D8",
+    "URS00000028D9",
+    "URS00000028DA",
+    "URS00000028DB",
+    "URS0000002954",
+    "URS00000029E9",
+    "URS0000002BC2",
+    "URS000000A433",
+    "URS000000A7AA",
+    "URS000000B4F0",
+    "URS000001125B",
+    "URS00000116CD",
+    "URS00000141F9"
+  ],
+  "reasons": {
+    "URS0000000012": [
+      "28.0:global_active_prefix"
+    ],
+    "URS0000000013": [
+      "28.0:global_active_prefix"
+    ],
+    "URS0000000014": [
+      "28.0:global_active_prefix"
+    ],
+    "URS0000000027": [
+      "27.0:database:GREENGENES",
+      "28.0:database:GREENGENES"
+    ],
+    "URS000000002B": [
+      "27.0:database:GREENGENES",
+      "28.0:database:GREENGENES"
+    ],
+    "URS0000000050": [
+      "27.0:family:RF00005",
+      "28.0:family:RF00005"
+    ],
+    "URS000000007C": [
+      "27.0:family:RF00005",
+      "28.0:family:RF00005"
+    ],
+    "URS0000000082": [
+      "27.0:family:RF01960",
+      "28.0:family:RF01960"
+    ],
+    "URS000000008C": [
+      "27.0:database:PIRBASE",
+      "28.0:database:PIRBASE"
+    ],
+    "URS0000000090": [
+      "27.0:family:RF01960",
+      "28.0:family:RF01960"
+    ],
+    "URS00000000AC": [
+      "27.0:inactive",
+      "28.0:inactive"
+    ],
+    "URS00000000AD": [
+      "27.0:inactive",
+      "28.0:inactive"
+    ],
+    "URS00000000B2": [
+      "27.0:inactive",
+      "28.0:inactive"
+    ],
+    "URS00000000B7": [
+      "27.0:inactive",
+      "28.0:inactive"
+    ],
+    "URS00000000C1": [
+      "27.0:inactive",
+      "28.0:inactive"
+    ],
+    "URS00000000F8": [
+      "27.0:family:RF01959",
+      "28.0:family:RF01959"
+    ],
+    "URS00000000FF": [
+      "27.0:family:RF01959",
+      "28.0:family:RF01959"
+    ],
+    "URS000000011E": [
+      "27.0:family:RF01959",
+      "28.0:family:RF01959"
+    ],
+    "URS000000011F": [
+      "27.0:family:RF02541",
+      "28.0:family:RF02541"
+    ],
+    "URS0000000136": [
+      "27.0:family:RF02543",
+      "28.0:family:RF02543"
+    ],
+    "URS0000000169": [
+      "27.0:family:RF02543",
+      "28.0:family:RF02543"
+    ],
+    "URS0000000172": [
+      "27.0:family:RF00002",
+      "28.0:family:RF00002"
+    ],
+    "URS0000000179": [
+      "27.0:ambiguous",
+      "28.0:ambiguous"
+    ],
+    "URS0000000181": [
+      "27.0:ambiguous",
+      "28.0:ambiguous"
+    ],
+    "URS0000000185": [
+      "27.0:database:GENECARDS",
+      "28.0:database:GENECARDS"
+    ],
+    "URS0000000186": [
+      "27.0:ambiguous",
+      "28.0:ambiguous"
+    ],
+    "URS000000019F": [
+      "27.0:ambiguous",
+      "28.0:ambiguous"
+    ],
+    "URS00000001AC": [
+      "27.0:ambiguous",
+      "28.0:ambiguous"
+    ],
+    "URS00000001C4": [
+      "27.0:family:RF02541",
+      "28.0:family:RF02541"
+    ],
+    "URS00000001DF": [
+      "27.0:family:RF02541",
+      "28.0:family:RF02541"
+    ],
+    "URS000000022A": [
+      "27.0:database:GENECARDS"
+    ],
+    "URS000000023C": [
+      "27.0:multi_taxon",
+      "28.0:multi_taxon"
+    ],
+    "URS0000000259": [
+      "27.0:multi_taxon",
+      "28.0:multi_taxon"
+    ],
+    "URS0000000271": [
+      "28.0:multi_taxon"
+    ],
+    "URS000000028D": [
+      "27.0:database:REFSEQ",
+      "28.0:database:REFSEQ"
+    ],
+    "URS00000002E6": [
+      "27.0:long_sequence",
+      "28.0:long_sequence"
+    ],
+    "URS000000035C": [
+      "27.0:database:GTRNADB",
+      "28.0:database:GTRNADB"
+    ],
+    "URS00000003D9": [
+      "27.0:multiple_hits",
+      "28.0:multiple_hits"
+    ],
+    "URS00000003F0": [
+      "27.0:multiple_hits",
+      "28.0:multiple_hits"
+    ],
+    "URS00000003FE": [
+      "27.0:multiple_hits",
+      "28.0:multiple_hits"
+    ],
+    "URS000000042E": [
+      "27.0:multiple_hits",
+      "28.0:multiple_hits"
+    ],
+    "URS0000000546": [
+      "28.0:database:NONCODE",
+      "changed_observed_provenance"
+    ],
+    "URS0000000595": [
+      "changed_observed_provenance"
+    ],
+    "URS00000005B0": [
+      "changed_observed_provenance"
+    ],
+    "URS00000005D1": [
+      "27.0:database:LNCBOOK",
+      "27.0:database:NONCODE",
+      "28.0:database:LNCBOOK",
+      "28.0:database:NONCODE",
+      "changed_observed_provenance"
+    ],
+    "URS00000005DF": [
+      "27.0:database:MGNIFY",
+      "28.0:database:MGNIFY",
+      "changed_observed_provenance"
+    ],
+    "URS000000060E": [
+      "27.0:database:MGNIFY",
+      "28.0:database:MGNIFY"
+    ],
+    "URS0000000626": [
+      "27.0:family:RF00001",
+      "28.0:family:RF00001"
+    ],
+    "URS0000000658": [
+      "27.0:family:RF00001",
+      "28.0:family:RF00001"
+    ],
+    "URS000000074D": [
+      "27.0:database:ENSEMBL",
+      "28.0:database:ENSEMBL"
+    ],
+    "URS0000000787": [
+      "27.0:database:ENSEMBL",
+      "27.0:database:LNCBOOK",
+      "28.0:database:ENSEMBL",
+      "28.0:database:LNCBOOK"
+    ],
+    "URS0000000849": [
+      "27.0:database:WORMBASE",
+      "28.0:database:WORMBASE"
+    ],
+    "URS0000000926": [
+      "27.0:family:RF00001",
+      "28.0:family:RF00001"
+    ],
+    "URS00000009A3": [
+      "27.0:database:MALACARDS"
+    ],
+    "URS0000000C0D": [
+      "27.0:database:ENSEMBL_GENCODE",
+      "27.0:database:EXPRESSION_ATLAS",
+      "28.0:database:ENSEMBL_GENCODE",
+      "28.0:database:EXPRESSION_ATLAS"
+    ],
+    "URS0000000CF3": [
+      "27.0:database:ENSEMBL_GENCODE",
+      "27.0:database:EXPRESSION_ATLAS",
+      "27.0:database:MALACARDS",
+      "28.0:database:ENSEMBL_GENCODE",
+      "28.0:database:EXPRESSION_ATLAS",
+      "28.0:database:MALACARDS"
+    ],
+    "URS0000000DEA": [
+      "27.0:family:RF02540",
+      "28.0:family:RF02540"
+    ],
+    "URS0000000E4A": [
+      "27.0:family:RF02540",
+      "28.0:family:RF02540"
+    ],
+    "URS0000000EDF": [
+      "27.0:family:RF02540",
+      "28.0:family:RF02540"
+    ],
+    "URS0000000F66": [
+      "28.0:database:MALACARDS"
+    ],
+    "URS00000013FA": [
+      "27.0:long_sequence",
+      "28.0:long_sequence"
+    ],
+    "URS000000187C": [
+      "27.0:database:MIRBASE",
+      "28.0:database:MIRBASE"
+    ],
+    "URS0000001B80": [
+      "27.0:database:ENSEMBL_FUNGI",
+      "28.0:database:ENSEMBL_FUNGI"
+    ],
+    "URS0000001BDA": [
+      "27.0:database:ENSEMBL_METAZOA"
+    ],
+    "URS0000001C12": [
+      "27.0:database:ENSEMBL_FUNGI",
+      "28.0:database:ENSEMBL_FUNGI"
+    ],
+    "URS0000001CB5": [
+      "27.0:database:ENSEMBL_METAZOA"
+    ],
+    "URS000000213F": [
+      "27.0:long_sequence",
+      "28.0:long_sequence"
+    ],
+    "URS0000002417": [
+      "27.0:family:RF00010",
+      "28.0:family:RF00010"
+    ],
+    "URS00000024AE": [
+      "27.0:long_sequence",
+      "28.0:long_sequence"
+    ],
+    "URS0000002524": [
+      "28.0:database:ENSEMBL_METAZOA"
+    ],
+    "URS0000002616": [
+      "27.0:family:RF00023",
+      "28.0:family:RF00023"
+    ],
+    "URS0000002695": [
+      "27.0:family:RF00010",
+      "28.0:family:RF00010"
+    ],
+    "URS00000028D7": [
+      "one_release_sequence_observation"
+    ],
+    "URS00000028D8": [
+      "one_release_sequence_observation"
+    ],
+    "URS00000028D9": [
+      "one_release_sequence_observation"
+    ],
+    "URS00000028DA": [
+      "one_release_sequence_observation"
+    ],
+    "URS00000028DB": [
+      "one_release_sequence_observation"
+    ],
+    "URS0000002954": [
+      "28.0:family:RF02542"
+    ],
+    "URS00000029E9": [
+      "28.0:family:RF02542"
+    ],
+    "URS0000002BC2": [
+      "28.0:family:RF00010"
+    ],
+    "URS000000A433": [
+      "27.0:global_active_prefix"
+    ],
+    "URS000000A7AA": [
+      "27.0:global_active_prefix"
+    ],
+    "URS000000B4F0": [
+      "27.0:global_active_prefix"
+    ],
+    "URS000001125B": [
+      "27.0:long_sequence",
+      "28.0:long_sequence"
+    ],
+    "URS00000116CD": [
+      "27.0:global_active_prefix"
+    ],
+    "URS00000141F9": [
+      "27.0:global_active_prefix"
+    ]
+  },
+  "raw_prefixes": {
+    "27.0-active.bin": "f5c61818e34aa937dc8eff1b382bbd9efaca03bab23ceb4cd9df090bf82ede93",
+    "27.0-id_mapping.bin": "0468cd92b94704a563210dfb410b3f5f849afbdf80c20bf5d1ccf0f3a8844b5b",
+    "27.0-inactive.bin": "f26e6419d58f4c0c043b89727d28d8fdc79244591f32af6e84a291bde0662b2a",
+    "27.0-md5.bin": "81165d286b80e5f9aa98025f0ff44ef19b17151711e02cff8cead33608c4f2c5",
+    "27.0-rfam.bin": "ca249f81dd9de4fe4a376b440152e277db68bee289b011bdba461c3773ce101a",
+    "27.0-species.bin": "85d76d66a013e5e6c8e7cd82c640064eec7fd1e51070e536e304aa9153e5576e",
+    "28.0-active.bin": "2a555a0a9b85ae14e70a983308cd3e1b424f81264249a959657e1598757aae6a",
+    "28.0-id_mapping.bin": "4406cf71028f2b1675e9626cdf7057909e005294fd400af1f231b72c56b2881c",
+    "28.0-inactive.bin": "b3df551791914f8c50632ff33ee5e7eeda0c66ff08421bb4b77584355a1680f2",
+    "28.0-md5.bin": "346884613d7b98949a2d7d0ca19a962e7f81b27c51e6d60c73d7df181083d680",
+    "28.0-rfam.bin": "408009838d59820d6259906a4a423bdd6f2cb7f40dfa7a8a20c9d8e2011a664b",
+    "28.0-species.bin": "f194f8e3f5faf1dcc2dd6ad804f97bb799c4cbf73b7fa918d6e13bb4af6e82ef"
+  }
+}

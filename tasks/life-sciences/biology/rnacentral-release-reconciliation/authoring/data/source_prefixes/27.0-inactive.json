@@ -1,0 +1,34 @@
+{
+  "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/27.0/sequences/rnacentral_inactive.fasta.gz",
+  "requested_range": [
+    0,
+    2097151
+  ],
+  "downloaded_utc": "2026-11-25T19:31:44.504572+00:00",
+  "status": 206,
+  "headers": {
+    "Date": "Wed, 25 Nov 2026 19:31:48 GMT",
+    "Server": "Apache",
+    "Last-Modified": "Mon, 20 Jul 2026 14:09:37 GMT",
+    "ETag": "\"4f560fe0-6570b74e8b479\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "2097152",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,OPTIONS",
+    "Access-Control-Allow-Headers": "Authorization,Origin,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Accept",
+    "Content-Range": "bytes 0-2097151/1331040224",
+    "Connection": "close",
+    "Content-Type": "application/x-gzip"
+  },
+  "compressed_bytes": 2097152,
+  "compressed_prefix_sha256": "f26e6419d58f4c0c043b89727d28d8fdc79244591f32af6e84a291bde0662b2a",
+  "decoded_bytes": 7774158,
+  "decoded_prefix_sha256": "334d56f2706e0774a81195417e2aa1f202b3eb58e8a7ac492bb867276d2ee5aa",
+  "complete_gzip_stream": false,
+  "coverage": "prefix only; global absence cannot be inferred",
+  "first_lines": [
+    ">URS0000000002 misc_RNA from 0 species",
+    "CGCATCGTGTTGCCCCTGACCAAACATCCCTCTAGGAGATGTTCCGGTTTGGGGGCGGAT",
+    "ACTGGCCTCCCGTGCCTTGTTGTGCGGCTGGCGCAAAAATGAGTCTCTGGCGATGGACGT"
+  ]
+}

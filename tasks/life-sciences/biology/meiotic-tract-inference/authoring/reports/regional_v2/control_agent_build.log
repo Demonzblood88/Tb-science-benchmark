@@ -1,0 +1,69 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 523B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 0.0s
+#3 transferring context: 2B 0.0s done
+#3 DONE 0.0s
+
+#4 [1/7] FROM docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0
+#4 resolve docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0 0.0s done
+#4 CACHED
+
+#5 [internal] load build context
+#5 transferring context: 67.68kB 0.0s done
+#5 DONE 0.1s
+
+#6 [2/7] COPY requirements.txt /tmp/requirements.txt
+#6 DONE 0.0s
+
+#7 [3/7] RUN pip install --no-cache-dir -r /tmp/requirements.txt
+#7 2.809 Collecting numpy==2.2.6 (from -r /tmp/requirements.txt (line 1))
+#7 4.659   Downloading numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+#7 5.608 Collecting scipy==1.15.3 (from -r /tmp/requirements.txt (line 2))
+#7 6.166   Downloading scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+#7 7.232 Downloading numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.5 MB)
+#7 39.30    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.5/16.5 MB 655.0 kB/s eta 0:00:00
+#7 39.46 Downloading scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.3 MB)
+#7 74.63    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.3/37.3 MB 785.4 kB/s eta 0:00:00
+#7 74.71 Installing collected packages: numpy, scipy
+#7 79.44 Successfully installed numpy-2.2.6 scipy-1.15.3
+#7 79.44 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#7 79.71 
+#7 79.71 [notice] A new release of pip is available: 24.3.1 -> 26.3
+#7 79.71 [notice] To update, run: pip install --upgrade pip
+#7 DONE 80.2s
+
+#8 [4/7] WORKDIR /app
+#8 DONE 0.1s
+
+#9 [5/7] COPY data/ /app/data/
+#9 DONE 0.1s
+
+#10 [6/7] COPY ASSAY.md /app/ASSAY.md
+#10 DONE 0.1s
+
+#11 [7/7] RUN cd /app/data && sha256sum -c data_checksums.sha256 && mkdir -p /app/submission /app/results
+#11 0.217 controls.tsv: OK
+#11 0.217 markers.tsv: OK
+#11 0.217 reads.tsv: OK
+#11 0.217 study.json: OK
+#11 DONE 0.2s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 5.7s done
+#12 exporting manifest sha256:285e63574ef91117b3bb178048562738ce37c4a45fc8e5113e4a921653c28c93 0.0s done
+#12 exporting config sha256:e4aec050f4b7cd5ccee991f5aeba720e134db9dd60dd9d8e4fbfe8917d68d2e1 0.0s done
+#12 exporting attestation manifest sha256:e34cb2d4fcb60789e3cdb2128e73257fdc37b37f36cb19001bbd1e7a7ef45383 0.0s done
+#12 exporting manifest list sha256:ad5266e84b08ab4186321b5edb06f02012198c854d3c9f1903d9c1f42cbfcf5c 0.0s done
+#12 naming to docker.io/library/regional-v2-frozen-controls-agent:latest done
+#12 unpacking to docker.io/library/regional-v2-frozen-controls-agent:latest
+#12 unpacking to docker.io/library/regional-v2-frozen-controls-agent:latest 1.5s done
+#12 DONE 7.3s

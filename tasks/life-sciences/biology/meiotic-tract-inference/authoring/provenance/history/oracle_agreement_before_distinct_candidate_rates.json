@@ -1,0 +1,11 @@
+{
+  "public_events.tsv": 1.6866508190105378e-12,
+  "public_sites.tsv": 4.956035581926699e-13,
+  "public_regimes.tsv": 2.7284841053187847e-12,
+  "gapped_events.tsv": 7.815970093361102e-14,
+  "gapped_sites.tsv": 8.959499808725013e-14,
+  "gapped_regimes.tsv": 2.9558577807620168e-12,
+  "sparse_events.tsv": 2.460254222569347e-13,
+  "sparse_sites.tsv": 1.0158540675320182e-13,
+  "sparse_regimes.tsv": 1.8189894035458565e-12
+}

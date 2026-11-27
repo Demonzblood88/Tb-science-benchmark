@@ -1,0 +1,83 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 546B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B 0.0s done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [1/5] FROM docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0
+#5 resolve docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0 0.0s done
+#5 DONE 0.0s
+
+#5 [1/5] FROM docker.io/library/python:3.12.8-slim-bookworm@sha256:2199a62885a12290dc9c5be3ca0681d367576ab7bf037da120e564723292a2f0
+#5 CACHED
+
+#4 [internal] load build context
+#4 transferring context: 713.42kB 0.2s done
+#4 DONE 0.2s
+
+#6 [2/5] RUN pip install --no-cache-dir numpy==2.2.6 scipy==1.15.3 pytest==8.4.1 pytest-json-ctrf==0.3.5 iniconfig==2.3.1 packaging==26.4 pluggy==1.7.0 pygments==2.21.0
+#6 2.469 Collecting numpy==2.2.6
+#6 2.989   Downloading numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+#6 3.499 Collecting scipy==1.15.3
+#6 3.660   Downloading scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+#6 3.921 Collecting pytest==8.4.1
+#6 4.082   Downloading pytest-8.4.1-py3-none-any.whl.metadata (7.7 kB)
+#6 4.263 Collecting pytest-json-ctrf==0.3.5
+#6 4.422   Downloading pytest_json_ctrf-0.3.5-py3-none-any.whl.metadata (3.3 kB)
+#6 4.590 Collecting iniconfig==2.3.1
+#6 4.749   Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+#6 4.929 Collecting packaging==26.4
+#6 5.090   Downloading packaging-26.4-py3-none-any.whl.metadata (3.5 kB)
+#6 5.259 Collecting pluggy==1.7.0
+#6 5.419   Downloading pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+#6 5.601 Collecting pygments==2.21.0
+#6 5.759   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+#6 5.946 Downloading numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.5 MB)
+#6 7.580    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.5/16.5 MB 11.6 MB/s eta 0:00:00
+#6 7.740 Downloading scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.3 MB)
+#6 38.50    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.3/37.3 MB 1.1 MB/s eta 0:00:00
+#6 38.66 Downloading pytest-8.4.1-py3-none-any.whl (365 kB)
+#6 38.86 Downloading pytest_json_ctrf-0.3.5-py3-none-any.whl (6.8 kB)
+#6 39.02 Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+#6 39.18 Downloading packaging-26.4-py3-none-any.whl (140 kB)
+#6 39.36 Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
+#6 39.52 Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+#6 39.71    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 6.5 MB/s eta 0:00:00
+#6 39.78 Installing collected packages: pygments, pluggy, packaging, numpy, iniconfig, scipy, pytest, pytest-json-ctrf
+#6 44.56 Successfully installed iniconfig-2.3.1 numpy-2.2.6 packaging-26.4 pluggy-1.7.0 pygments-2.21.0 pytest-8.4.1 pytest-json-ctrf-0.3.5 scipy-1.15.3
+#6 44.56 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#6 44.82 
+#6 44.82 [notice] A new release of pip is available: 24.3.1 -> 26.3
+#6 44.82 [notice] To update, run: pip install --upgrade pip
+#6 DONE 45.2s
+
+#7 [3/5] COPY . /tests/
+#7 DONE 0.1s
+
+#8 [4/5] RUN mkdir -p /app/submission /app/results /logs/verifier && chmod 700 /tests /logs/verifier
+#8 DONE 0.2s
+
+#9 [5/5] WORKDIR /tests
+#9 DONE 0.0s
+
+#10 exporting to image
+#10 exporting layers
+#10 exporting layers 5.3s done
+#10 exporting manifest sha256:5388d36cb5de60d80d24c115a27fcdf1979460f9949c5e6a3fbe11719e0aa782 0.0s done
+#10 exporting config sha256:42b44253362978a572cf40039c6ccba4bf90559a0e39c4223652274bf63faaaf 0.0s done
+#10 exporting attestation manifest sha256:f6f6d6a9636db300eb1156d18f94ce90a79763df5ae11a6389a44157db4ab33d 0.0s done
+#10 exporting manifest list sha256:1f1c124e9303af688c7f654a3a0783eeaa65472e57c7202531cf9e30b38bc1fc 0.0s done
+#10 naming to docker.io/library/regional-v2-frozen-controls-verifier:latest done
+#10 unpacking to docker.io/library/regional-v2-frozen-controls-verifier:latest
+#10 unpacking to docker.io/library/regional-v2-frozen-controls-verifier:latest 1.6s done
+#10 DONE 7.0s

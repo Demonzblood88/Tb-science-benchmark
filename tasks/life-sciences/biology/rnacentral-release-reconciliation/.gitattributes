@@ -1,0 +1,4 @@
+# Preserve canonical dataset checksums and captured source/validation bytes.
+** -text
+*.log -whitespace
+authoring/provenance/** -whitespace

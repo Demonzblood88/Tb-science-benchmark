@@ -1,0 +1,34 @@
+{
+  "url": "https://ftp.ebi.ac.uk/pub/databases/RNAcentral/releases/28.0/md5/md5.tsv.gz",
+  "requested_range": [
+    0,
+    2097151
+  ],
+  "downloaded_utc": "2026-11-25T19:32:46.142796+00:00",
+  "status": 206,
+  "headers": {
+    "Date": "Wed, 25 Nov 2026 19:32:49 GMT",
+    "Server": "Apache",
+    "Last-Modified": "Wed, 07 Oct 2026 10:33:57 GMT",
+    "ETag": "\"4d8ece48-65d3da7130176\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "2097152",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,OPTIONS",
+    "Access-Control-Allow-Headers": "Authorization,Origin,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Accept",
+    "Content-Range": "bytes 0-2097151/1301204552",
+    "Connection": "close",
+    "Content-Type": "application/x-gzip"
+  },
+  "compressed_bytes": 2097152,
+  "compressed_prefix_sha256": "346884613d7b98949a2d7d0ca19a962e7f81b27c51e6d60c73d7df181083d680",
+  "decoded_bytes": 4637960,
+  "decoded_prefix_sha256": "d1987149a4881a7b27fc2251b4805526cabcce72c2cf73844b6eaec0300dea48",
+  "complete_gzip_stream": false,
+  "coverage": "prefix only; global absence cannot be inferred",
+  "first_lines": [
+    "URS0000000001\t6bba097c8c39ed9a0fdf02273ee1c79a",
+    "URS0000000002\t1fe2f0e3c3a2d6d708ac98e9bfb1d7a8",
+    "URS0000000003\t7bb11d0572ff6bb42427ce74450ba564"
+  ]
+}

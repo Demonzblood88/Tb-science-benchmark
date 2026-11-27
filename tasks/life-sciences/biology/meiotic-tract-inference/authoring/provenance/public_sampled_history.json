@@ -1,0 +1,351 @@
+{
+  "seed": 431927,
+  "selected_regime": {
+    "id": "R27_4",
+    "co_per_bp": 2.5649999999999997e-05,
+    "gc_per_bp": 1.4e-05,
+    "mean_tract_bp": 650.0,
+    "prior": 0.125
+  },
+  "chromosomes": [
+    {
+      "tetrad": "T0_0",
+      "chromosome": "chr4_0",
+      "sister_group": [
+        0,
+        3
+      ],
+      "events": [
+        {
+          "position": 2619.931598663072,
+          "type": "initiation",
+          "recipient": 0,
+          "donor": 0
+        },
+        {
+          "position": 3689.3195046993274,
+          "type": "termination"
+        },
+        {
+          "position": 5359.152432884573,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 13846.068308833876,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 29173.602100482367,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 73905.30992094302,
+          "type": "initiation",
+          "recipient": 3,
+          "donor": 0
+        },
+        {
+          "position": 74185.58125544745,
+          "type": "termination"
+        }
+      ],
+      "co_count": 3,
+      "gc_count": 2
+    },
+    {
+      "tetrad": "T0_0",
+      "chromosome": "chr4_1",
+      "sister_group": [
+        1,
+        3
+      ],
+      "events": [
+        {
+          "position": 49561.661756249145,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 1,
+      "gc_count": 0
+    },
+    {
+      "tetrad": "T0_1",
+      "chromosome": "chr4_0",
+      "sister_group": [
+        2,
+        3
+      ],
+      "events": [
+        {
+          "position": 40343.05011209749,
+          "type": "initiation",
+          "recipient": 1,
+          "donor": 1
+        },
+        {
+          "position": 40714.953054715676,
+          "type": "termination"
+        },
+        {
+          "position": 75591.15148189878,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 1,
+      "gc_count": 1
+    },
+    {
+      "tetrad": "T0_1",
+      "chromosome": "chr4_1",
+      "sister_group": [
+        0,
+        2
+      ],
+      "events": [
+        {
+          "position": 19654.654344692408,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 41179.341761280666,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 69120.58353458229,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 3,
+      "gc_count": 0
+    },
+    {
+      "tetrad": "T0_2",
+      "chromosome": "chr4_0",
+      "sister_group": [
+        1,
+        3
+      ],
+      "events": [
+        {
+          "position": 16310.383468589518,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 59102.58352243941,
+          "type": "initiation",
+          "recipient": 2,
+          "donor": 0
+        },
+        {
+          "position": 59620.84581609678,
+          "type": "termination"
+        },
+        {
+          "position": 69567.52910204891,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 73594.47722105104,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 3,
+      "gc_count": 1
+    },
+    {
+      "tetrad": "T0_2",
+      "chromosome": "chr4_1",
+      "sister_group": [
+        0,
+        3
+      ],
+      "events": [
+        {
+          "position": 73512.80792368663,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 1,
+      "gc_count": 0
+    },
+    {
+      "tetrad": "T0_3",
+      "chromosome": "chr4_0",
+      "sister_group": [
+        0,
+        2
+      ],
+      "events": [
+        {
+          "position": 7393.265257214728,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 61635.42796417592,
+          "type": "initiation",
+          "recipient": 1,
+          "donor": 1
+        },
+        {
+          "position": 62227.00242320087,
+          "type": "termination"
+        }
+      ],
+      "co_count": 1,
+      "gc_count": 1
+    },
+    {
+      "tetrad": "T0_3",
+      "chromosome": "chr4_1",
+      "sister_group": [
+        1,
+        3
+      ],
+      "events": [
+        {
+          "position": 26178.623594843542,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 34196.80422344438,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 54970.217768215625,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 3,
+      "gc_count": 0
+    },
+    {
+      "tetrad": "T0_4",
+      "chromosome": "chr4_0",
+      "sister_group": [
+        1,
+        2
+      ],
+      "events": [
+        {
+          "position": 9894.022862360354,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 28645.33506599322,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 63124.84316132058,
+          "type": "initiation",
+          "recipient": 0,
+          "donor": 1
+        },
+        {
+          "position": 63804.467494241384,
+          "type": "termination"
+        },
+        {
+          "position": 75776.66065782693,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 3,
+      "gc_count": 1
+    },
+    {
+      "tetrad": "T0_4",
+      "chromosome": "chr4_1",
+      "sister_group": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "position": 25852.592091857157,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 1,
+      "gc_count": 0
+    },
+    {
+      "tetrad": "T0_5",
+      "chromosome": "chr4_0",
+      "sister_group": [
+        0,
+        2
+      ],
+      "events": [
+        {
+          "position": 18931.04162313508,
+          "type": "crossover",
+          "silent": false
+        },
+        {
+          "position": 73317.84843684566,
+          "type": "crossover",
+          "silent": true
+        }
+      ],
+      "co_count": 2,
+      "gc_count": 0
+    },
+    {
+      "tetrad": "T0_5",
+      "chromosome": "chr4_1",
+      "sister_group": [
+        2,
+        3
+      ],
+      "events": [
+        {
+          "position": 39624.343269489764,
+          "type": "initiation",
+          "recipient": 2,
+          "donor": 0
+        },
+        {
+          "position": 39891.520072428386,
+          "type": "termination"
+        },
+        {
+          "position": 68318.0505698073,
+          "type": "initiation",
+          "recipient": 1,
+          "donor": 1
+        },
+        {
+          "position": 68833.63246509958,
+          "type": "termination"
+        },
+        {
+          "position": 74230.49819031628,
+          "type": "crossover",
+          "silent": false
+        }
+      ],
+      "co_count": 1,
+      "gc_count": 2
+    }
+  ]
+}
